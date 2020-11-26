@@ -51,7 +51,7 @@ ul{
 
 /*----------------------------------------------------------------------*/
 
-article, aside, footer {
+footer {
 	background-color: #F2F2F2;
 }
 
@@ -59,20 +59,57 @@ header i {
 	background-color: #DEEBFF;
 	border-radius: 50%;
 	padding: 10px 10px;
+	height: 50%;
+ 	margin-top: auto;
+ 	margin-bottom: auto;
 
 }
 
 i {
 	color : #0065FC;
+	   
+
+
 
 }
 
-.bouton
-{
+#filtre {
+	display: flex;
+	border-radius: 0px 40px 40px 0px;	
+	border-top: 0.5px solid #F2F2F2;
+    border-right: 0.5px solid #F2F2F2;
+    border-bottom: 0.5px solid #F2F2F2;
+    padding: 1px 40px;
+    height: 35px;
+    margin-top : 15px;
+	margin-left: -20px;
+	margin-right: 20px;
+
+		
+}
+
+#forme {
+	display: flex;
+	font-weight: bold;
+}
+
+.recherche {
+	border : 0.5px solid #F2F2F2;
+	height: 30px;
+	margin-right: -5px;
+	padding-left: 10px;
+		font-weight: bold;
+
+}
+
+.bouton{
+	color: white;
 	background-color: #0065FC;
-	padding: 9px;
+	height: 30px;
+	
+	margin-bottom: 15px;
 	border : none;
-	border-radius: 10px 40px 40px 10px;
+	border-radius: 0px 40px 40px 0px;
 }
 /*------------------------------------------------------------------------*/
 
@@ -84,6 +121,8 @@ section
 
 article, aside
 {
+	background-color: #F2F2F2;
+	border-radius: 2%;
     text-align: justify;
     padding:20px 20px;
 }
@@ -91,46 +130,46 @@ article, aside
 article
 {
     margin-right: 30px;
-    flex: 3;
+    
 }
 
-#contener {
+#contener { /*hébergements*/
 	display: flex;
 	flex-wrap: wrap;
+	align-content: center;
 }
 
+
 #auberge {
-	overflow:hidden;
+	overflow: hidden;
 	background-color: white;
 	border : 5px solid white;
 	border-radius: 15px;
 	margin :15px; 
 }
 
+#populaires {
+	display: flex;
+	flex-wrap: wrap;
+		overflow: hidden;
+
+	background-color: white;
+	border : 5px solid white;
+	border-radius: 15px;
+	padding-bottom: 1px;
+}
 
 /*------------------------------------------------------------------------*/
-#filtre {
+
+#activites {
 	display: flex;
-	border-radius: 0px 40px 40px 0px;	
-	border-top: 0.5px solid #F2F2F2;
-    border-right: 0.5px solid #F2F2F2;
-    border-bottom: 0.5px solid #F2F2F2;
-    padding: 0px 30px;
-    height: 35px;
-    margin-top : 15px;
-	margin-left: -20px;
-	margin-right: 50px;
-	
+	justify-content: space-around;
+	align-content: center;
 }
 
-#forme {
-	display: flex;
-	height: 20px;
-}
 
-#forme i {
 
-}
+
 /*-------------------------------------------------------------------------*/
 footer { 
 	display: flex;
