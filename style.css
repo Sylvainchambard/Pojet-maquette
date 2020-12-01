@@ -10,15 +10,17 @@ body {
 
 #bloc_page
 {
-    width: 1200px;
+    width: 1600px;
     margin: auto;
 }
 
-
+/*regler espace hebergement, marge footer, pousser filtre, bordure dessus background*/
 /* --------------------------------------------------------------*/
 nav {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
+	
+
 	
 }
 
@@ -32,11 +34,14 @@ nav a {
 	color: #0065FC ;
 	font-weight: bold;
 
+
+	
 }
 
 nav li
 {
     margin-right: 50px;
+
 }
 
 nav a:hover
@@ -44,6 +49,7 @@ nav a:hover
     color: black;
     border-top: 2px solid black;
 }
+
 
 ul{
 	list-style-type: none;
@@ -62,6 +68,7 @@ header i {
 	height: 50%;
  	margin-top: auto;
  	margin-bottom: auto;
+ 	margin-left: 20px;
 
 }
 
@@ -76,17 +83,32 @@ i {
 #filtre {
 	display: flex;
 	border-radius: 0px 40px 40px 0px;	
-	border-top: 0.5px solid #F2F2F2;
-    border-right: 0.5px solid #F2F2F2;
-    border-bottom: 0.5px solid #F2F2F2;
-    padding: 1px 40px;
-    height: 35px;
+	border-top: 2.5px solid #F2F2F2;
+    border-right: 2.5px solid #F2F2F2;
+    border-bottom: 2.5px solid #F2F2F2;
+    padding: 8px 40px 0px 40px;
+    height: 27px;
     margin-top : 15px;
 	margin-left: -20px;
-	margin-right: 20px;
+	margin-bottom: 0px;
 
-		
 }
+
+
+span {
+	background-color: #F2F2F2;
+	padding: 11px 13px;
+	border-radius: 40px 0px 0px 40px;
+}
+
+.info {
+	color : #0065FC;
+	background-color: white;
+	border: 2.5px solid #F2F2F2;
+	border-radius: 50%;
+}
+
+
 
 #forme {
 	display: flex;
@@ -95,17 +117,17 @@ i {
 
 .recherche {
 	border : 0.5px solid #F2F2F2;
-	height: 30px;
+	height: 40px;
 	margin-right: -5px;
 	padding-left: 10px;
-		font-weight: bold;
+	font-weight: bold;
 
 }
 
 .bouton{
 	color: white;
 	background-color: #0065FC;
-	height: 30px;
+	height: 40px;
 	
 	margin-bottom: 15px;
 	border : none;
@@ -116,27 +138,36 @@ i {
 section
 {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 article, aside
 {
 	background-color: #F2F2F2;
-	border-radius: 2%;
+	border-radius: 3%;
     text-align: justify;
-    padding:20px 20px;
+    
 }
 
 article
 {
-    margin-right: 30px;
+    margin-right: 50px;
+    padding-left: 40px;
+    padding-top: 20px;
     
 }
+
+aside {
+	margin-right: 80px;
+	padding:20px 20px 20px 20px;
+}
+
+/**********************************/
 
 #contener { /*hébergements*/
 	display: flex;
 	flex-wrap: wrap;
-	align-content: center;
+	align-content: space-around;
 }
 
 
@@ -145,20 +176,45 @@ article
 	background-color: white;
 	border : 5px solid white;
 	border-radius: 15px;
-	margin :15px; 
+	margin :35px; 
 }
+
+.lit {
+	height: 120px;
+	width: 240px;
+}
+/**********************************/
 
 #populaires {
 	display: flex;
-	flex-wrap: wrap;
-		overflow: hidden;
-
+	flex-wrap: nowrap;
+	overflow: hidden;
 	background-color: white;
 	border : 5px solid white;
-	border-radius: 15px;
-	padding-bottom: 1px;
+	border-radius: 20px;
+	margin :30px 0px;
+	width: 300px;
 }
 
+
+.photo {
+
+	height: 140px;
+	width: 140px;
+	border-radius: 20px 0px 0px 20px;
+	}
+
+#texte {
+	display: flex;
+	flex-direction: column;
+	padding-left: 15px;
+}
+
+#etoile {
+	display: flex;
+	
+	
+}
 /*------------------------------------------------------------------------*/
 
 #activites {
@@ -173,7 +229,7 @@ article
 /*-------------------------------------------------------------------------*/
 footer { 
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-content: flex-start; 
 }
 	
