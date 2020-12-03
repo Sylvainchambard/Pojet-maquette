@@ -10,7 +10,7 @@ body {
 
 #bloc_page
 {
-    width: 1450px;
+    width: 1300px;
     margin: auto;
 }
 
@@ -151,7 +151,7 @@ article, aside
 
 article
 {
-    margin-right: 50px;
+    margin-right: 30px;
     padding-left: 20px;
     padding-top: 10px;
     
@@ -171,24 +171,25 @@ aside {
 }
 
 
-#auberge {
+.auberge {
 	overflow: hidden;
 	background-color: white;
 	border : 5px solid white;
-	border-radius: 15px;
-	margin-right: 25px; 
-	margin-left: 25px;
+	border-radius: 20px;
+	margin-right: 15px; 
+	margin-left: 13px;
 	margin-bottom: 25px;
-
+	box-shadow: 0px 5px 5px #DFDFDF;
+	/*height: 230px;*/
 }
 
 .lit {
 	height: 120px;
-	width: 260px;
+	width: 240px;
 }
 /**********************************/
 
-#populaires {
+.populaires {
 	display: flex;
 	flex-wrap: nowrap;
 	overflow: hidden;
@@ -198,24 +199,27 @@ aside {
 	margin :30px 0px;
 	width: 320px;
 	padding-right: 10px;
+	box-shadow: 0px 5px 5px #DFDFDF;
 }
 
 
 .photo {
 
-	height: 140px;
-	width: 140px;
+	height: 150px;
+	width: 150px;
 	border-radius: 20px 0px 0px 20px;
 	}
 
-#texte {
+.texte {
 	display: flex;
 	flex-direction: column;
 	padding-left: 15px;
 }
 
-#etoile {
+.etoile {
 	display: flex;
+	padding-bottom: 10px;
+	padding-left: 5px;
 	
 	
 }
@@ -229,18 +233,53 @@ aside {
 
 .element {
 	overflow: hidden;
+	box-shadow: 0px 5px 5px #DFDFDF;
+	border-radius: 20px 20px 20px 20px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+		width: 300px;
+
+
+}
+
+.element2 {
+	overflow: hidden;
+	box-shadow: 0px 5px 5px #DFDFDF;
+	border-radius: 20px 20px 20px 20px;
+	margin-bottom: 30px;
+	width: 300px;
+
+}
+
+.rangement1 {
+		box-shadow: 0px 5px 5px #DFDFDF;
+	border-radius: 20px 20px 20px 20px;
+	overflow: hidden;
 	background-color: white;
-	box-shadow: -1px 18px 31px -17px rgba(235,235,235,1);
-	border : 5px solid white;
-	border-radius: 15px;
-	
+	margin-right: 30px;
+	height: 400px;
+		width: 300px;
+
 }
 
 .rangement2 {
 	display: flex;
 	flex-direction: column;
-	margin : 10px 20px;
+		width: 300px;
+		margin-right: 30px;
+
+
+	
+	
 }
+
+
+#activites p {
+	
+	padding-left: 10px;
+
+}
+
 
 /*-------------------------------------------------------------------------*/
 footer { 
