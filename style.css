@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Releway';
-	src: url('Raleway-VariableFont_wght.ttf') format('truetype');
-	src: url('Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+	src: url('projet2/Raleway-VariableFont_wght.ttf') format('truetype');
+	src: url('projet2/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 body {
@@ -45,9 +45,11 @@ nav li
 }
 
 nav a:hover
-{
-    color: black;
-    border-top: 2px solid black;
+{	padding-top: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+    font-weight: normal;
+    border-top: 2px solid #0065FC;
 }
 
 
@@ -57,8 +59,15 @@ ul{
 
 /*----------------------------------------------------------------------*/
 
+header {
+	margin-top: 50px;
+}
+
+
 footer {
 	background-color: #F2F2F2;
+	width: 1400px;
+	margin: auto;
 }
 
 header i {
@@ -92,6 +101,11 @@ i {
 	margin-left: -20px;
 	margin-bottom: 0px;
 
+}
+
+#filtre:hover {
+	font-size: 20px;
+	color : #0065FC ;
 }
 
 
@@ -139,6 +153,12 @@ section
 {
     display: flex;
     margin-bottom: 40px;
+
+}
+
+a{
+	text-decoration: none;
+	color : black;
 }
 
 article, aside
@@ -282,9 +302,13 @@ aside {
 
 
 /*-------------------------------------------------------------------------*/
-footer { 
+
+footer {
 	display: flex;
-	justify-content: space-around;
-	align-content: flex-start; 
 }
+
+.foot {
+	margin-right: 200px;
+	padding-left: 15px;
 	
+}
