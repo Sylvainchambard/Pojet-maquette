@@ -38,6 +38,9 @@
 
 
 
+header, article, aside, footer {
+	width: 480px;
+}
 
 
 
