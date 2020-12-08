@@ -11,38 +11,34 @@ section {
 	flex-direction: column;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-header, article, aside, footer {
-	width: 480px;
-	margin: auto;
+#activites {
 	flex-direction: column;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
