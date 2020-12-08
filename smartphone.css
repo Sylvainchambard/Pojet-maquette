@@ -7,9 +7,7 @@
        
     }
 
-.logo {
-	display: none;
-}
+.
 
 
 
@@ -40,6 +38,7 @@
 
 header, article, aside, footer {
 	width: 480px;
+	margin: auto;
 }
 
 
