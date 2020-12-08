@@ -24,6 +24,17 @@ nav {
 	
 }
 
+.hebact { 
+display: flex;
+ 
+
+}
+
+.inscription a  {
+    font-weight: bold;
+    color: #0065FC;
+}
+
 nav ul {
 	display: flex;
 	
@@ -31,25 +42,24 @@ nav ul {
 
 nav a {
 	text-decoration: none;
-	color: #0065FC ;
-	font-weight: bold;
-
-
+	
 	
 }
 
 nav li
 {
-    margin-right: 50px;
+    padding-right: 60px;
 
 }
 
-nav a:hover
-{	padding-top: 30px;
+nav a:hover {	
+	padding-top: 30px;
 	padding-left: 15px;
 	padding-right: 15px;
     font-weight: normal;
     border-top: 2px solid #0065FC;
+    color: #0065FC ;
+    
 }
 
 
@@ -60,20 +70,16 @@ ul{
 /*----------------------------------------------------------------------*/
 
 header {
-	margin-top: 50px;
+	margin-top: 17px;
 }
 
 
-footer {
-	background-color: #F2F2F2;
-	width: 1400px;
-	margin: auto;
-}
+
 
 header i {
 	background-color: #DEEBFF;
 	border-radius: 50%;
-	padding: 10px 10px;
+	padding: 10px 10px 11px 10px;
 	height: 50%;
  	margin-top: auto;
  	margin-bottom: auto;
@@ -84,9 +90,10 @@ header i {
 i {
 	color : #0065FC;
 	   
+}
 
-
-
+i.fas.fa-child {
+	padding: 9px 12px 13px 12px;
 }
 
 #filtre {
@@ -111,7 +118,7 @@ i {
 
 span {
 	background-color: #F2F2F2;
-	padding: 11px 13px;
+	padding: 11px 12px 14px 12px;
 	border-radius: 40px 0px 0px 40px;
 }
 
@@ -120,6 +127,7 @@ span {
 	background-color: white;
 	border: 2.5px solid #F2F2F2;
 	border-radius: 50%;
+	padding: 5px 9px;
 }
 
 
@@ -240,8 +248,10 @@ aside {
 	display: flex;
 	padding-bottom: 10px;
 	padding-left: 5px;
-	
-	
+}
+
+.fleche {
+	padding-left: 90px;
 }
 /*------------------------------------------------------------------------*/
 
@@ -302,9 +312,15 @@ aside {
 
 
 /*-------------------------------------------------------------------------*/
-
 footer {
 	display: flex;
+	background-color: #F2F2F2;
+	width: 1400px;
+	margin: auto;
+}
+
+footer li {
+	padding-top: 10px;
 }
 
 .foot {
@@ -314,19 +330,7 @@ footer {
 }
 
 
-/***************************************************/
+/**************************************************
 					Media Queries
-/***************************************************/
+=**************************************************/
 
-@media all and (max-device-width: 480px)
-{
-	#bloc_page {
-        width: auto;
-    }
-
-
-.auberge  {
-	flex-direction: column;
-}
-
-}
