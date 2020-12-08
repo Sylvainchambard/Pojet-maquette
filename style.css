@@ -320,7 +320,7 @@ aside {
 footer {
 	display: flex;
 	background-color: #F2F2F2;
-	width: 1400px;
+	width: 1300px;
 	margin: auto;
 }
 
@@ -337,5 +337,31 @@ footer li {
 
 /**************************************************
 					Media Queries
-=**************************************************/
+=**************************************************
+@viewport {
+	max-width: 480px;
 
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+body
+{
+    width: 500px;
+    margin: auto;
+
+
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+	
+footer {
+	width: 400px;
+	margin: auto;
+	flex-direction: column;
+}
+
+
+}*/

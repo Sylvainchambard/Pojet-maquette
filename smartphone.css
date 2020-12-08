@@ -1,31 +1,44 @@
-  
-@media all and (max-device-width: 480px)
-{
-	#bloc_page {
-        width: auto;
-        
-       
-    }
 
-section {
-	flex-direction: column;
+
+
+@media screen and (max-width: 480px) {
+	
+
+#bloc_page {
+	width: auto;
+}
+
+.hebact {
+	justify-content: space-around;
+	position: relative;
+	top : 50px;
+}
+
+nav a:hover {	
+	padding-left: 15px;
+	padding-right: 15px;
+    font-weight: normal;
+    border-bottom: 2px solid #0065FC;
+    color: #0065FC ;
 }
 
 
 
+section {
+	flex-direction: column-reverse;
+}
 
 
+#activites {
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
 
-
-
-
-
-
-
-
-
-
+footer {
+	flex-direction: column;
+	width: auto;
+}
 
 
 
