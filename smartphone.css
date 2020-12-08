@@ -1,5 +1,5 @@
   
-@media screen and (max-width: 480px)
+@media all and (max-device-width: 480px)
 {
 	#bloc_page {
         width: 480px;
