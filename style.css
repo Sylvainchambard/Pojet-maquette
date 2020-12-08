@@ -312,3 +312,21 @@ footer {
 	padding-left: 15px;
 	
 }
+
+
+/***************************************************/
+					Media Queries
+/***************************************************/
+
+@media all and (max-device-width: 480px)
+{
+	#bloc_page {
+        width: auto;
+    }
+
+
+.auberge  {
+	flex-direction: column;
+}
+
+}
