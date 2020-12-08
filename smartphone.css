@@ -41,6 +41,7 @@ section {
 header, article, aside, footer {
 	width: 480px;
 	margin: auto;
+	flex-direction: column;
 }
 
 
