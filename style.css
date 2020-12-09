@@ -92,9 +92,12 @@ header i {
 
 }
 
-i {
+header i {
 	color : #0065FC;
-	   
+	}
+
+section i {
+	color: #0065FC;
 }
 
 i.fas.fa-child {
@@ -123,7 +126,7 @@ i.fas.fa-child {
 
 span {
 	background-color: #F2F2F2;
-	padding: 11px 12px 14px 12px;
+	padding: 11px 11px 14px 15px;
 	border-radius: 40px 0px 0px 40px;
 }
 
@@ -159,6 +162,13 @@ span {
 	margin-bottom: 15px;
 	border : none;
 	border-radius: 0px 40px 40px 0px;
+}
+
+
+.loupe {
+	display: inline;
+	visibility: hidden;
+
 }
 /*------------------------------------------------------------------------*/
 

@@ -6,23 +6,74 @@
 
 #bloc_page {
 	width: auto;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+.inscription {
+	position: relative;
+	
+
+}
+
+
+.hebact:hover {
+	border-bottom: 3px solid #0065FC;
+	padding-bottom: 8px;
+
 }
 
 .hebact {
-	justify-content: space-around;
+
+	
+	border-bottom: 3px solid #F2F2F2;
+	padding-bottom: 8px;
 	position: relative;
-	top : 50px;
+	top: 50px;
+	left: 190px;
+	width: 300px;
+	padding-left: 65px;
+
+
 }
 
-nav a:hover {	
-	padding-left: 15px;
-	padding-right: 15px;
-    font-weight: normal;
-    border-bottom: 2px solid #0065FC;
-    color: #0065FC ;
+nav a:hover {
+	border-top :none;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+h1 {
+	padding-top: 15px;
+	padding-right: -20px;
+	font-size: 1.4em;
+}
+
+.recherche {
+	width: 215px;
+}
+
+.bouton { 
+display: none; }
+
+.loupe {
+	background-color: #0065FC;
+	visibility: visible;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+	color : white;
+	position: relative;
+	bottom: 513px;
+	left: 248px;
 }
 
 
+}
+
+#forme {
+	flex-direction: column;
+}
 
 section {
 	flex-direction: column-reverse;
