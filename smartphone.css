@@ -135,24 +135,83 @@ aside {
 	border-radius: 0px;
 }
 
-#activites {
-	flex-wrap: wrap;
-	justify-content: center;
+#ancre_activites {
+	margin-left :23px;
 }
 
+#activites {
+	flex-wrap: wrap;
 
+}
 
+.element {
+	width: 340px;
+	margin-right: 0px;
 
+}
+
+.element2 {
+	width: 340px;
+
+}
+
+.rangement1 {
+	margin-right: -68px;
+	margin-left: 15px;
+	padding-bottom: 15px;
+	width: 340px;
+	height: 140px;
+	margin-bottom: 20px;
+}
+
+.rangement2 {
+	margin: 10px 0px 10px 40px;
+}
+	
+.port1{
+	display: flex;
+	margin: auto;
+	width: 340px;
+
+}
+
+.calanque1 {
+	display: flex;
+	margin: auto;
+	width: 340px;
+}
+
+.port { display: none;
+
+}
+.calanque {display: none;}
+.fort { width: 340px;
+height: 120px; }
+.ile { width: 340px;
+height: 120px; }
+
+.dame {
+	width: 340px;
+	height: 120px;
+}
+
+.parc {
+	width: 340px;
+	height: 120px;
+
+}
 footer {
 	flex-direction: column;
 	width: 384px;
 	margin-right: -9px;
 	margin-left: -9px;
 	padding-bottom: 15px;
+	margin-top: 30px;
 }
 
 .foot {
 	width: 300px;
+	
 	margin-left: -20px;
 }
 

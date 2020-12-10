@@ -345,7 +345,8 @@ aside {
 
 }
 
-
+.calanque1 {display: none;}
+.port1 {display: none;}
 /*-------------------------------------------------------------------------*/
 footer {
 	display: flex;
