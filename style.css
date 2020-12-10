@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Releway';
-	src: url('projet2/Raleway-VariableFont_wght.ttf') format('truetype');
-	src: url('projet2/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+	src: url('Projet2/Raleway-VariableFont_wght.ttf') format('truetype');
+	src: url('Projet2/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 body {
@@ -202,7 +202,7 @@ article, aside
 {
 	background-color: #F2F2F2;
 	border-radius: 3%;
-    text-align: justify;
+    /*text-align: justify;*/
     
 }
 
@@ -212,6 +212,11 @@ article
     padding-left: 20px;
     padding-top: 10px;
     
+}
+
+article p {
+	margin-bottom: -5px;
+	padding-left: 8px;
 }
 
 aside {
@@ -270,13 +275,14 @@ aside {
 .texte {
 	display: flex;
 	flex-direction: column;
-	padding-left: 15px;
+	padding-left: 20px;
 }
 
 .etoile {
 	display: flex;
+	margin-top: 18px;
 	padding-bottom: 10px;
-	padding-left: 5px;
+	padding-left: 8px;
 }
 
 .fleche {

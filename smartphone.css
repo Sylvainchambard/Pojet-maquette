@@ -71,7 +71,7 @@ display: none; }
 	padding: 10px 10px 10px 10px;
 	color : white;
 	position: relative;
-	bottom: 306px;
+	bottom: 305px;
 	left: 272px;
 }
 
@@ -95,7 +95,6 @@ header i {
 	flex-direction: column;
 	margin-left: 3px;
 	margin-top: 15px;
-	
 }
 
 .filtre {
@@ -110,8 +109,31 @@ header i {
 
 section {
 	flex-direction: column-reverse;
+	
 }
 
+article {
+	background-color: white;
+	width: 340px;
+
+}
+
+.auberge {
+	margin-left: -9px;
+	width: 353px;
+}
+
+.lit {
+	width: 350px;
+	
+
+}
+
+aside {
+	width: 344px;
+	margin-left: -9px;
+	border-radius: 0px;
+}
 
 #activites {
 	flex-wrap: wrap;
@@ -119,9 +141,19 @@ section {
 }
 
 
+
+
 footer {
 	flex-direction: column;
-	width: auto;
+	width: 384px;
+	margin-right: -9px;
+	margin-left: -9px;
+	padding-bottom: 15px;
+}
+
+.foot {
+	width: 300px;
+	margin-left: -20px;
 }
 
 
