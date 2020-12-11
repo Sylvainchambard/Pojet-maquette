@@ -55,6 +55,7 @@ h1 {
 header p:last-child {
 	font-size: 0.9em;
 	margin-top: -10px;
+	
 }
 
 .recherche {
@@ -71,12 +72,13 @@ display: none; }
 	padding: 10px 10px 10px 10px;
 	color : white;
 	position: relative;
-	bottom: 305px;
-	left: 272px;
+	bottom: 288px;
+	left: 269px;
 }
 
 .info {
 	padding: 2px 6px
+
 }
 
 header i {
@@ -94,13 +96,14 @@ header i {
 	flex-wrap: wrap;
 	flex-direction: column;
 	margin-left: 3px;
-	margin-top: 15px;
+	
 }
 
 .filtre {
 	
 	padding-left: 28px;
 	padding-right: 20px;
+	margin-top: 4px;
 	}
 
 
@@ -165,7 +168,7 @@ aside {
 }
 
 .rangement2 {
-	margin: 10px 0px 10px 40px;
+	margin: 10px 0px 0px 40px;
 }
 	
 .port1{
@@ -206,7 +209,7 @@ footer {
 	margin-right: -9px;
 	margin-left: -9px;
 	padding-bottom: 15px;
-	margin-top: 30px;
+	margin-top: -20px;
 }
 
 .foot {
