@@ -1,7 +1,7 @@
 
 
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
 	
 
 #bloc_page {
@@ -219,19 +219,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
