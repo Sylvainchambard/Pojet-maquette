@@ -22,26 +22,21 @@ nav {
 	justify-content: flex-end;
 	position: relative;
 	bottom: 20px;
-
-
 	
-
 }
+
 
 .logo {
 	margin-bottom: -35px;
 }
 
-.hebact { 
-display: flex;
- 
 
+nav li:last-child {
+	color: #0065FC;
+	font-weight: bold;
 }
+  
 
-.inscription a  {
-    font-weight: bold;
-    color: #0065FC;
-}
 
 nav ul {
 	display: flex;
@@ -50,12 +45,12 @@ nav ul {
 
 nav a {
 	text-decoration: none;
-	
+	color: black;
 	
 }
 
 nav li
-{
+{	
     padding-left: 60px;
     margin-right: 5px;
 
@@ -68,7 +63,8 @@ nav a:hover {
     font-weight: normal;
     border-top: 2px solid #0065FC;
     color: #0065FC ;
-    
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 
@@ -103,7 +99,7 @@ section i {
 }
 
 i.fas.fa-child {
-	padding: 10px 13px 10px 14px;
+	padding: 11px 13px 10px 14px;
 }
 
 .filtre {
@@ -121,11 +117,11 @@ i.fas.fa-child {
 }
 
 .filtre:hover {
-	font-size: 20px;
 	color : #0065FC ;
 }
 
 
+}
 span {
 	background-color: #F2F2F2;
 	padding: 11px 11px 14px 15px;
@@ -137,7 +133,7 @@ span {
 	background-color: white;
 	border: 2.5px solid #F2F2F2;
 	border-radius: 50%;
-	padding: 5px 9px;
+	padding: 3px 10px 2px 10px;
 }
 
 .bulle-billet {
@@ -184,6 +180,10 @@ span {
 	visibility: hidden;
 
 }
+
+header p:last-child{
+	margin-left: -25px;
+}
 /*------------------------------------------------------------------------*/
 
 section
@@ -193,7 +193,7 @@ section
 
 }
 
-a{
+section a{
 	text-decoration: none;
 	color : black;
 }
@@ -202,8 +202,7 @@ article, aside
 {
 	background-color: #F2F2F2;
 	border-radius: 3%;
-    /*text-align: justify;*/
-    
+      
 }
 
 article
@@ -220,7 +219,6 @@ article p {
 }
 
 aside {
-	/*margin-right: 80px;*/
 	padding:10px 20px 20px 20px;
 }
 
@@ -235,14 +233,13 @@ aside {
 
 .auberge {
 	overflow: hidden;
-	background-color: white;
 	border : 5px solid white;
 	border-radius: 20px;
 	margin-right: 15px; 
 	margin-left: 13px;
 	margin-bottom: 25px;
 	box-shadow: 0px 5px 5px #DFDFDF;
-	/*height: 230px;*/
+	
 }
 
 .lit {
@@ -255,10 +252,9 @@ aside {
 	display: flex;
 	flex-wrap: nowrap;
 	overflow: hidden;
-	background-color: white;
-	border : 5px solid white;
+	border: 5px solid white;
 	border-radius: 20px;
-	margin :30px 0px;
+	margin: 30px 0px;
 	width: 320px;
 	padding-right: 10px;
 	box-shadow: 0px 5px 5px #DFDFDF;
@@ -366,33 +362,3 @@ footer li {
 }
 
 
-/**************************************************
-					Media Queries
-=**************************************************
-@viewport {
-	max-width: 480px;
-
-}
-
-@media only screen and (min-width: 481px) and (max-width: 768px){
-
-body
-{
-    width: 500px;
-    margin: auto;
-
-
-}
-
-
-
-@media only screen and (max-device-width: 480px) {
-	
-footer {
-	width: 400px;
-	margin: auto;
-	flex-direction: column;
-}
-
-
-}*/
