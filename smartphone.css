@@ -2,15 +2,26 @@
 	
 
 #bloc_page {
-	width: 300px;
-	margin-left: 9px;
+	width: auto;
+	margin: 0px 0px;
+	
+}	
+
+body {
+	width: auto;
+	margin: 0px 0px;
+}
+
+h2 {
+	margin-left: 8px;
+}
+/**************** HEADER ***************/
 	
 
-	
-}
 
 header {
 	width: 300px;
+	margin-left: 15px;
 	
 }
 
@@ -33,23 +44,13 @@ nav li:first-child {
 nav li:nth-child(2) {
 	position: absolute;
 	top: 60px;
-	right: 155px;
+	right: 0px;
 }
 
 nav li:nth-child(3) {
 	position: absolute;
-	right: 110px;
+	left:230px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 h1 {
@@ -61,8 +62,12 @@ h1 {
 header p:last-child {
 	font-size: 0.9em;
 	margin-top: -10px;
-	
+	padding-left: 25px;
 }
+
+
+/******************** FILTRES *******************/
+
 
 .recherche {
 	width: 240px;
@@ -78,13 +83,17 @@ display: none; }
 	padding: 10px 10px 10px 10px;
 	color : white;
 	position: relative;
-	bottom: 288px;
+	bottom: 302px;
 	left: 269px;
 }
 
 .info {
 	padding: 2px 6px
 	
+}
+
+.map {
+
 }
 
 header i {
@@ -112,31 +121,61 @@ header i {
 	margin-top: 4px;
 	}
 
-header p:last-child {
-	padding-left: 25px;
+/***************** POPULAIRES ****************/
+
+aside {
+	
+	
+	width: 100%;
+	padding: 0px 0px 30px 0px;
+	margin: 0px 0px 0px 0px;
+	
+
+}
+
+.populaires {
+	width: 320px;
+	margin:30px 0px 0px 20px;
+}
+
+#bloc {
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	
 }
 
 
 
+/**************** HEBERGEMENTS ****************/
 section {
 	flex-direction: column-reverse;
-	justify-content: center;
-	width: 320px;
 	
+	width: 100%;
+	margin: 0px 0px;
 	
 }
 
 article {
+	flex-direction: column;
+
 	background-color: transparent;
-	width: 380px;
-	padding: 0px 0px;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
 	margin: 0px 0px;
 
 }
 
+#contener {
+	margin: 0px 0px;
+	flex-direction: column;
+	
+}
+
 .auberge {
 	
-	width: 330px;
+	width: 320px;
+	margin: 15px 0px;
 
 }
 
@@ -146,24 +185,15 @@ article {
 
 }
 
-aside {
-	width: 371px;
-	margin-left: -16px;
-	border-radius: 0px;
-}
 
-.populaires {
-	width: 340px;
-	margin-left: 5px;
-}
-
-
+/**************** ACTIVITES **************/
 
 #activites {
-	width: 330px;
+	width: 380px;
+	flex-direction: column;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-left:-20px;
+	margin-left:0px;
 
 }
 
@@ -179,8 +209,8 @@ aside {
 }
 
 .rangement1 {
-	margin-right: -68px;
-	margin-left: 15px;
+	margin-right: 0px;
+	margin-left: 0px;
 	padding-bottom: 15px;
 	width: 340px;
 	height: 140px;
@@ -188,7 +218,7 @@ aside {
 }
 
 .rangement2 {
-	margin: 10px 0px 0px 40px;
+	margin: 10px 0px 0px 0px;
 }
 	
 .port1{
@@ -223,16 +253,18 @@ height: 120px; }
 	height: 120px;
 
 }
+
+/***************** FOOTER *****************/
+
 footer {
 	flex-direction: column;
-	width: 320px;
-	margin-left: 0px;
+	width: 100%;
 	padding-bottom: 15px;
-	margin-top: -20px;
+	margin: 0px;
 }
 
 .foot {
-	width: 320px;
+	width: 250px;
 	
 	margin-left: -20px;
 }
