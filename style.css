@@ -31,8 +31,12 @@ nav {
 	margin-bottom: -35px;
 }
 
-  
 
+
+  
+nav .ok {
+	color: blue;
+	font-weight: bold;}
 
 nav ul {
 	display: flex;
@@ -41,8 +45,8 @@ nav ul {
 
 nav a {
 	text-decoration: none;
-		
-	
+	color : black;
+
 }
 
 
