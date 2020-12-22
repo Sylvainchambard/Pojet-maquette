@@ -18,6 +18,10 @@ h2 {
 	margin-left: 28px;
 
 }
+
+article h2 {
+	margin-left: -15px;
+}
 /**************** HEADER ***************/
 	
 
