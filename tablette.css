@@ -1,4 +1,4 @@
-@media all and (max-width: 768px) and (min-width: 481px)
+@media only screen and (max-width: 768px) and (min-width: 481px)
   {
   	#bloc_page {
 	width: auto;
