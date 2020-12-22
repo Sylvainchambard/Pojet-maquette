@@ -10,7 +10,7 @@ body {
 
 #bloc_page
 {
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
 
@@ -41,7 +41,7 @@ nav ul {
 
 nav a {
 	text-decoration: none;
-		color: rgb(0, 101,252);
+		
 	
 }
 
