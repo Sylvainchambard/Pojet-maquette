@@ -47,19 +47,20 @@ nav a:hover {
 
 nav li:first-child {
 	position: absolute;
-	top: 60px;
+	top: 20px;
 	left:0px;
 }
 
 nav li:nth-child(2) {
 	position: absolute;
-	top: 60px;
+	top: 20px;
 	left: 255px;
 }
 
 nav li:nth-child(3) {
 	position: absolute;
-	right: 0px;
+	top :-30px;
+	right: -20px;
 	margin-right:20px;
 }
 
@@ -193,7 +194,7 @@ article {
 .auberge {
 	
 	width: 320px;
-	margin: 15px 0px 0px 20px;
+	margin: 15px 0px 0px 0px;
 
 }
 
