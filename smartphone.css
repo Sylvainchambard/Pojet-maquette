@@ -3,24 +3,20 @@
 @media only screen and (max-width: 480px) {
 	
 
-#bloc_page {
-	width: auto;
-	margin: 0px 0px;
-	
-}	
+
 
 body {
-	width: auto;
+	width: 90%;
 	margin: 0px 0px;
 }
 
 h2 {
-	margin-left: 28px;
+	margin-left: 20px;
 
 }
 
 article h2 {
-	margin-left: -15px;
+	margin-left: -35px;
 }
 /**************** HEADER ***************/
 	
@@ -38,36 +34,35 @@ nav ul {
 
 nav a:hover {
 	border-top :none;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 50px;
+	padding-right: 50px;
 	border-bottom: 3px solid #0065FC;
 	position: relative;
-	left: -65px;
+	left: -35px;
 }
 
 nav li:first-child {
 	position: absolute;
 	top: 20px;
-	left:0px;
+	left:-20px;
 }
 
 nav li:nth-child(2) {
 	position: absolute;
 	top: 20px;
-	left: 255px;
+	left: 160px;
 }
 
 nav li:nth-child(3) {
 	position: absolute;
 	top :-30px;
-	right: -20px;
+	left : 200px;
 	margin-right:20px;
 }
 
 
 h1 {
 	padding-top: 15px;
-	/*padding-right: -20px;*/
 	font-size: 1.3em;
 }
 
@@ -139,9 +134,9 @@ header i {
 
 aside {	
 	width: auto;
-	padding: 0px 0px 30px 0px;
+	padding: 0px 0px 0px 0px;
 	align-items: center;
-	min-width: 480px;
+	min-width: 385px;
 
 }
 
@@ -156,7 +151,7 @@ aside {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
-	margin-left: 70px;
+	margin-left: 10px;
 	
 
 }
@@ -180,15 +175,18 @@ article {
 	background-color: transparent;
 	width: auto;
 	padding: 0px 0px 0px 0px;
+	margin-right: 0px;
+
 	
 
 }
 
 #contener {
-	width: auto;
+	width: 80%;
+	display: flex;
 	flex-direction: column;
-	
-	
+	margin-left: 30px;
+	margin-right: 0px;
 }
 
 .auberge {
@@ -212,26 +210,26 @@ article {
 	flex-direction: column;
 	align-items: center;
 	flex-wrap: wrap;
-	margin:0px 30px;
+	margin-left: 0px;
 
 }
 
 .element {
-	width: 340px;
+	width: 300px;
 	
 
 }
 
 .element2 {
-	width: 340px;
+	width: 300px;
 
 }
 
 .rangement1 {
 	margin-right: 0px;
-	margin-left: 35px;
+	margin-left: 0px;
 	padding-bottom: 15px;
-	width: 340px;
+	width: 300px;
 	height: 140px;
 	margin-bottom: 20px;
 }
@@ -243,32 +241,32 @@ article {
 .port1{
 	display: flex;
 	margin: auto;
-	width: 340px;
+	width: 300px;
 
 }
 
 .calanque1 {
 	display: flex;
 	margin: auto;
-	width: 340px;
+	width: 300px;
 }
 
 .port { display: none;
 
 }
 .calanque {display: none;}
-.fort { width: 340px;
+.fort { width: 300px;
 height: 120px; }
-.ile { width: 340px;
+.ile { width: 300px;
 height: 120px; }
 
 .dame {
-	width: 340px;
+	width: 300px;
 	height: 120px;
 }
 
 .parc {
-	width: 340px;
+	width: 300px;
 	height: 120px;
 
 }
@@ -277,7 +275,7 @@ height: 120px; }
 
 footer {
 	flex-direction: column;
-	min-width: 480px;
+	min-width: 380px;
 	width: auto;
 	padding-bottom: 15px;
 	margin: 0px;

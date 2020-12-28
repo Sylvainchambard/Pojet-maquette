@@ -6,13 +6,11 @@
 
 body {
 	font-family: Releway, serif;
-}
-
-#bloc_page
-{
-    width: 70%;
+	width: 70%;
     margin: auto;
 }
+
+
 
 
 /* --------------------------------------------------------------*/
@@ -119,6 +117,8 @@ i.fas.fa-child {
 
 .filtre:hover {
 	color : #0065FC ;
+	cursor: pointer;
+	transform: scale(1.12);
 }
 
 
