@@ -137,7 +137,7 @@ aside {
 	width: auto;
 	padding: 0px 0px 0px 0px;
 	align-items: center;
-	min-width: 385px;
+	min-width: 410px;
 
 }
 
@@ -152,7 +152,7 @@ aside {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
-	margin-left: 15px;
+	margin-left: 35px;
 	
 
 }
@@ -186,7 +186,7 @@ article {
 	width: 80%;
 	display: flex;
 	flex-direction: column;
-	margin-left: 30px;
+	margin-left: 35px;
 	margin-right: 0px;
 }
 
@@ -211,7 +211,7 @@ article {
 	flex-direction: column;
 	align-items: center;
 	flex-wrap: wrap;
-	margin-left: 0px;
+	margin-left: 10px;
 
 }
 
@@ -228,7 +228,7 @@ article {
 
 .rangement1 {
 	margin-right: 0px;
-	margin-left: -5px;
+	margin-left: 15px;
 	padding-bottom: 15px;
 	width: 320px;
 	height: 140px;
@@ -236,7 +236,7 @@ article {
 }
 
 .rangement2 {
-	margin: 10px 0px 0px -25px;
+	margin: 10px 0px 0px 0px;
 }
 	
 .port1{
@@ -277,7 +277,7 @@ height: 120px; }
 footer {
 	flex-direction: column;
 	
-	min-width: 385px;
+	min-width: 420px;
 	width: 50%;
 
 	padding-bottom: 15px;
@@ -286,7 +286,7 @@ footer {
 
 .foot {
 	width: 300px;
-	
+	margin-right: 0px;
 	margin-left: 0px;
 }
 
