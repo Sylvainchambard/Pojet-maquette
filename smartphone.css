@@ -16,7 +16,7 @@ h2 {
 }
 
 article h2 {
-	margin-left: -35px;
+	margin-left: 10px;
 }
 /**************** HEADER ***************/
 	
@@ -50,7 +50,8 @@ nav li:first-child {
 nav li:nth-child(2) {
 	position: absolute;
 	top: 20px;
-	left: 160px;
+	left: 200px;
+	margin-right: 0px;
 }
 
 nav li:nth-child(3) {
@@ -151,7 +152,7 @@ aside {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
-	margin-left: 10px;
+	margin-left: 15px;
 	
 
 }
@@ -215,58 +216,58 @@ article {
 }
 
 .element {
-	width: 300px;
+	width: 320px;
 	
 
 }
 
 .element2 {
-	width: 300px;
+	width: 320px;
 
 }
 
 .rangement1 {
 	margin-right: 0px;
-	margin-left: 0px;
+	margin-left: -5px;
 	padding-bottom: 15px;
-	width: 300px;
+	width: 320px;
 	height: 140px;
 	margin-bottom: 20px;
 }
 
 .rangement2 {
-	margin: 10px 0px 0px 0px;
+	margin: 10px 0px 0px -25px;
 }
 	
 .port1{
 	display: flex;
 	margin: auto;
-	width: 300px;
+	width: 320px;
 
 }
 
 .calanque1 {
 	display: flex;
 	margin: auto;
-	width: 300px;
+	width: 320px;
 }
 
 .port { display: none;
 
 }
 .calanque {display: none;}
-.fort { width: 300px;
+.fort { width: 320px;
 height: 120px; }
-.ile { width: 300px;
+.ile { width: 320px;
 height: 120px; }
 
 .dame {
-	width: 300px;
+	width: 320px;
 	height: 120px;
 }
 
 .parc {
-	width: 300px;
+	width: 320px;
 	height: 120px;
 
 }
@@ -275,8 +276,10 @@ height: 120px; }
 
 footer {
 	flex-direction: column;
-	min-width: 380px;
-	width: auto;
+	
+	min-width: 385px;
+	width: 50%;
+
 	padding-bottom: 15px;
 	margin: 0px;
 }
