@@ -1,2 +1,7 @@
 [1209/143323.854:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
 [1217/151126.975:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[1228/144341.270:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[1228/144341.285:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Sylvain\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\adfb6f01-2dda-4d0c-8955-b48812147d79: Le chemin d’accès spécifié est introuvable. (0x3)
+[1228/144341.287:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Sylvain\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\cade7bfc-e0b2-4191-929d-e9ad047c0465: Le chemin d’accès spécifié est introuvable. (0x3)
+[1228/144341.289:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Sylvain\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\fb11b403-1854-40c5-b981-ccd37e0eae4c: Le chemin d’accès spécifié est introuvable. (0x3)
+[1228/144341.291:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Sylvain\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\1299b090-51f0-4376-87d5-f7cdb3ac8451: Le chemin d’accès spécifié est introuvable. (0x3)
