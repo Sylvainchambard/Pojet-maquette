@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Releway';
-	src: url('Projet2/Raleway-VariableFont_wght.ttf') format('truetype');
-	src: url('Projet2/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+	src: url('police/Raleway-VariableFont_wght.ttf') format('truetype');
+	src: url('police/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 body {
