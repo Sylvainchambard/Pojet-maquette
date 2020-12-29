@@ -70,7 +70,7 @@ h1 {
 header p:last-child {
 	font-size: 0.9em;
 	margin-top: -10px;
-	padding-left: 25px;
+	margin-left: 20px;
 }
 
 
@@ -134,25 +134,29 @@ header i {
 /***************** POPULAIRES ****************/
 
 aside {	
-	width: auto;
-	padding: 0px 0px 0px 0px;
+	width: 100%;
+	min-width: auto;
+	
 	align-items: center;
-	min-width: 410px;
+	margin-right: 0px;
+	margin-left: 0px;
 
 }
 
 .populaires {
 	width: 320px;
-	margin-top: 15px;
+	
+	margin: 0px 0px 15px 15px;
+	
 	
 	
 }
 
 #bloc {
-	width: 50%;
+	width: auto;
+	min-width: auto;
 	display: flex;
-	flex-direction: column;
-	margin-left: 35px;
+	
 	
 
 }
@@ -167,6 +171,8 @@ section {
 	flex-wrap: wrap;
 	width: auto;
 	align-items: center;
+	min-width: auto;
+
 	
 	
 }
@@ -186,8 +192,8 @@ article {
 	width: 80%;
 	display: flex;
 	flex-direction: column;
-	margin-left: 35px;
-	margin-right: 0px;
+	margin-left: 39px;
+	
 }
 
 .auberge {
@@ -207,12 +213,12 @@ article {
 /**************** ACTIVITES **************/
 
 #activites {
-	width: 380px;
+	width: auto;
 	flex-direction: column;
 	align-items: center;
 	flex-wrap: wrap;
+	margin-right: 10px;
 	margin-left: 10px;
-
 }
 
 .element {
@@ -228,7 +234,7 @@ article {
 
 .rangement1 {
 	margin-right: 0px;
-	margin-left: 15px;
+	margin-left: 18px;
 	padding-bottom: 15px;
 	width: 320px;
 	height: 140px;
@@ -277,15 +283,15 @@ height: 120px; }
 footer {
 	flex-direction: column;
 	
-	min-width: 410px;
-	width: auto;
+	min-width: auto;
+	width: 100%;
 
 	padding-bottom: 15px;
 	margin: 0px;
 }
 
 .foot {
-	width: 300px;
+	width: 100%;
 	margin-right: 0px;
 	margin-left: 0px;
 }
