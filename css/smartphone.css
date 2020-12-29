@@ -148,14 +148,14 @@ aside {
 .populaires {
 	width: 320px;
 	
-	margin: 0px 0px 15px 15px;
+	margin: 0px 0px 15px 0px;
 	
 	
 	
 }
 
 #bloc {
-	width: auto;
+	width: 100%;
 	min-width: auto;
 	display: flex;
 	
@@ -212,6 +212,10 @@ article {
 
 }
 
+article p:last-child{
+	width: 80%;
+	margin-right: 0px;
+}
 
 /**************** ACTIVITES **************/
 
@@ -220,13 +224,13 @@ article {
 	flex-direction: column;
 	align-items: center;
 	flex-wrap: wrap;
-	margin-right: 20px;
-	margin-left: 5px;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
 .element {
 	width: 320px;
-	
+	margin-right: 0px;
 
 }
 
@@ -297,6 +301,7 @@ footer {
 	width: 80%;
 	margin-right: 0px;
 	margin-left: 0px;
+	padding-left: 0px;
 }
 
 
