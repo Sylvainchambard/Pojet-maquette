@@ -13,7 +13,7 @@ body {
 
 
 
-/* --------------------------------------------------------------*/
+/* ------------------------- NAV -------------------------------------*/
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -71,7 +71,7 @@ ul{
 	list-style-type: none;
 }
 
-/*----------------------------------------------------------------------*/
+/*------------------------- FILTRE ---------------------------------------------*/
 
 
 
@@ -185,7 +185,7 @@ i.fas.fa-child {
 header p:last-child{
 	margin-left: -25px;
 }
-/*------------------------------------------------------------------------*/
+/*-------------------------- HEBERGEMENTS----------------------------------------------*/
 
 section
 {
@@ -219,11 +219,13 @@ article p {
 	padding-left: 8px;
 }
 
-aside {
-	padding:10px 20px 20px 20px;
+article h2 {
+	padding-left: 18px;
 }
 
 /**********************************/
+
+
 
 #contener { /*hébergements*/
 	display: flex;
@@ -248,8 +250,10 @@ aside {
 	height: 120px;
 	width: 240px;
 }
-/**********************************/
-
+/***********-----------POPULAIRES ------***********************/
+aside {
+	padding:10px 20px 20px 20px;
+}
 .populaires {
 	display: flex;
 	flex-wrap: nowrap;
@@ -287,7 +291,7 @@ aside {
 .fleche {
 	padding-left: 90px;
 }
-/*------------------------------------------------------------------------*/
+/*---------------------------ACTIVITES-------------------------------------*/
 
  #activites {
 	display: flex;
@@ -346,12 +350,14 @@ aside {
 
 .calanque1 {display: none;}
 .port1 {display: none;}
-/*-------------------------------------------------------------------------*/
+
+
+/*------------------------FOOTER-------------------------------------------------*/
 footer {
 	display: flex;
 	background-color: #F2F2F2;
-	width: 1300px;
-	margin: auto;
+	width: auto;
+	margin-left: -50px;
 }
 
 footer a {
@@ -365,7 +371,7 @@ footer li {
 
 .foot {
 	margin-right: 200px;
-	padding-left: 15px;
+	padding-left: 25px;
 	
 }
 
