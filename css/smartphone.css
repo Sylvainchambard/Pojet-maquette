@@ -7,11 +7,13 @@
 
 body {
 	width: 100%;
-	margin: 0px 0px;
+	margin: auto;
 }
 
 h2 {
 	margin-left: 20px;
+	margin-top: 25px;
+	width: 100%;
 
 }
 
@@ -209,37 +211,37 @@ article {
 }
 
 article p:last-child{
-	width: 80%;
-	margin-right: 0px;
+	margin-left: 15px;
+	margin-top: 20px;
 }
 
 /**************** ACTIVITES **************/
 
 #activites {
-	width: auto;
+	width: 100%;
 	flex-direction: column;
 	align-items: center;
 	flex-wrap: wrap;
-	margin-right: 0px;
-	margin-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .element {
-	width: 320px;
+	width: 330px;
 	margin-right: 0px;
 
 }
 
 .element2 {
-	width: 320px;
+	width: 330px;
 
 }
 
 .rangement1 {
 	margin-right: 0px;
-	margin-left: 18px;
+	margin-left: 40px;
 	padding-bottom: 15px;
-	width: 320px;
+	width: 330px;
 	height: 140px;
 	margin-bottom: 20px;
 }
@@ -251,32 +253,32 @@ article p:last-child{
 .port1{
 	display: flex;
 	margin: auto;
-	width: 320px;
+	width: 330px;
 
 }
 
 .calanque1 {
 	display: flex;
 	margin: auto;
-	width: 320px;
+	width: 330px;
 }
 
 .port { display: none;
 
 }
 .calanque {display: none;}
-.fort { width: 320px;
+.fort { width: 330px;
 height: 120px; }
-.ile { width: 320px;
+.ile { width: 330px;
 height: 120px; }
 
 .dame {
-	width: 320px;
+	width: 330px;
 	height: 120px;
 }
 
 .parc {
-	width: 320px;
+	width: 330px;
 	height: 120px;
 
 }
@@ -286,15 +288,14 @@ height: 120px; }
 footer {
 	flex-direction: column;
 	
-	min-width: auto;
-	width: 100%;
+	
+	width: 110%;
 
-	padding-bottom: 15px;
-	margin: 0px;
+
 }
 
 .foot {
-	width: 80%;
+	width: 100%;
 	margin-right: 0px;
 	margin-left: 0px;
 	padding-left: 0px;

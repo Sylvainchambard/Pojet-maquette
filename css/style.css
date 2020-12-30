@@ -6,7 +6,7 @@
 
 body {
 	font-family: Releway, serif;
-	width: 70%;
+	width: 100%;
     margin: auto;
 }
 
@@ -20,6 +20,7 @@ nav {
 	justify-content: flex-end;
 	position: relative;
 	bottom: 10px;
+
 
 	
 }
@@ -75,7 +76,10 @@ ul{
 /*------------------------- FILTRE ---------------------------------------------*/
 
 
-
+header {
+	width: 75%;
+	margin: auto;
+}
 
 
 header i {
@@ -193,6 +197,10 @@ section
     display: flex;
     margin-bottom: 40px;
 
+    width: 75%;
+    	margin-left: auto;
+	margin-right: auto;
+
 }
 
 section a{
@@ -216,14 +224,19 @@ article
 }
 
 article p {
-	margin-bottom: -5px;
+	
 	padding-left: 8px;
 }
 
 article h2 {
-	padding-left: 18px;
+	
 }
 
+h2 {
+	margin: auto;
+	width: 75%;
+	margin-bottom: 10px;
+}
 /**********************************/
 
 
@@ -242,6 +255,7 @@ article h2 {
 	margin-right: 15px; 
 	margin-left: 15px;
 	margin-bottom: 25px;
+	margin-top: 30px;
 	box-shadow: 0px 5px 5px #DFDFDF;
 	background-color: white;
 	
@@ -298,6 +312,9 @@ aside {
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .element {
@@ -357,8 +374,8 @@ aside {
 footer {
 	display: flex;
 	background-color: #F2F2F2;
-	width: auto;
-	margin-left: -50px;
+	width: 80%;
+	margin: auto;
 }
 
 footer a {
