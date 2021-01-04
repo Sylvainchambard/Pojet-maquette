@@ -94,7 +94,7 @@ display: none; }
 	padding: 10px 10px 10px 10px;
 	color : white;
 	position: relative;
-	top : -305px;
+	top : -272px;
 	left: 269px;
 	margin-top: 25px;
 }
@@ -163,6 +163,10 @@ aside {
 
 .texte {
 	
+}
+
+.fleche {
+	padding-left: 30px;
 }
 
 /**************** HEBERGEMENTS ****************/
@@ -243,6 +247,7 @@ article p:last-child{
 	width: 330px;
 	height: 140px;
 	margin-bottom: 20px;
+	margin-right: inherit;
 }
 
 .rangement2 {
@@ -304,3 +309,34 @@ footer {
 }
 
 
+@media only screen and (max-width: 443px) {
+
+	.loupe {
+	background-color: #0065FC;
+	visibility: visible;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+	color : white;
+	position: relative;
+	top : -290px;
+	left: 269px;
+	margin-top: 25px;
+
+}
+
+@media only screen and (max-width: 364px) {
+
+	nav li:nth-child(2) {
+	position: absolute;
+	top: 20px;
+	left: 170px;
+	margin-right: 0px;
+}
+
+nav li:nth-child(3) {
+	position: absolute;
+	top :-30px;
+	left : 170px;
+	margin-right:20px;
+
+	}

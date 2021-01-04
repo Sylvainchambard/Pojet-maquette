@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1023px)
   {
   	body {
 	width: auto;
@@ -8,8 +8,7 @@
 
 nav { 
 	margin-right: 50px;
-	position: relative;
-	top: 20px;
+	
 
 }
 
@@ -31,11 +30,12 @@ section {
 article {
 	padding-bottom: 30px;
 	margin-right: 0px;
+
 }
 
 aside {
 	margin-top: 25px;
-
+margin-bottom: 15px;
 }
 
 #contener{
@@ -73,34 +73,16 @@ footer {
 	margin-right: 5px;
 }
 
+}
 
+@media only screen and (max-width: 675px)
+  {
+  	nav { 
+	margin-right: 10px; 
+	position: relative;
+	top :20px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	}
 
 
 }

@@ -1,3 +1,5 @@
+@media only screen and (max-width: 1920px) {
+
 @font-face {
 	font-family: 'Releway';
 	src: url('../police/Raleway-VariableFont_wght.ttf') format('truetype');
@@ -233,10 +235,13 @@ article h2 {
 }
 
 h2 {
+	width: 70%;
 	margin: auto;
-	width: 75%;
+	
 	margin-bottom: 10px;
 }
+
+
 /**********************************/
 
 
@@ -393,4 +398,31 @@ footer li {
 	
 }
 
+}
+@media only screen and (max-width: 1373px) {
 
+	header {
+		width: 98%;
+	}
+
+	section {
+		width: 98%;
+		margin-right: 5px;
+	}
+
+	article {
+		margin-right: 5px;
+		flex-wrap: nowrap;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	nav li
+{	
+    padding-left: 60px;
+    margin-right: 30px;
+
+}
+}
