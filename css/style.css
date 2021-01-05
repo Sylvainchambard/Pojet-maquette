@@ -312,7 +312,10 @@ aside {
 	padding-left: 90px;
 }
 /*---------------------------ACTIVITES-------------------------------------*/
-
+#ancre_activites{
+	margin:auto;
+	width: 75%;
+}
  #activites {
 	display: flex;
 	justify-content: space-around;
@@ -437,6 +440,10 @@ h3 {
 
 }
 
+#ancre_activites{
+	width: 80%;
+}
+
 }
 
 
@@ -460,6 +467,10 @@ h3 {
 	footer {
 		width: 100%;
 	}
+
+	#ancre_activites{
+	width: 94%;
+}
 }
 
 @media only screen and (max-width: 1270px) {
