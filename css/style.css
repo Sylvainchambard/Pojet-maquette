@@ -3,7 +3,7 @@
 @font-face {
 	font-family: 'Releway';
 	src: url('../police/Raleway-VariableFont_wght.ttf') format('truetype');
-	src: url('../police/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+	
 }
 
 body {
@@ -267,7 +267,7 @@ h2 {
 
 .lit {
 	border-top-left-radius: 20px;
-border-top-right-radius: 20px;
+	border-top-right-radius: 20px;
 	height: 120px;
 	width: 240px;
 }
