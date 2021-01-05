@@ -113,7 +113,7 @@ header i {
 
 .bulle-billet, .bulle-coeur, .bulle-chien  {
 	margin-left: -15px;
-	padding-top: -55px;
+	
 	margin-bottom:  15px;
 	margin-top: -10px;
 }
@@ -387,14 +387,14 @@ nav li:nth-child(3) {
 
 aside {
 	width: 118%;
-}
+	}
 
 #activites {
 	margin-left: 24px;
-}
+	}
 
 footer {
 	width: 118%;
-}
-
 	}
+
+}
