@@ -89,24 +89,20 @@ header i {
 	border-radius: 50%;
 	padding: 10px 12px 10px 12px;
 	height: 20px;
-	
+	color : #0065FC;
  	margin-top: 5px;
  	margin-bottom: auto;
  	margin-left: 20px;
+ 	margin-right: 5px;
 
 }
 
-header i {
-	color : #0065FC;
-	}
 
 section i {
 	color: #0065FC
 }
 
-i.fas.fa-child {
-	padding: 13px 13px 10px 14px;
-}
+
 
 .filtre {
 	display: flex;
@@ -133,7 +129,8 @@ i.fas.fa-child {
 	background-color: #F2F2F2;
 	padding: 11px 11px 10px 15px;
 	border-radius: 40px 0px 0px 40px;
-	margin-left: -7px;
+	margin-left: -5px;
+	margin-right: 0px;
 }
 
 .info {
@@ -257,9 +254,8 @@ h2 {
 
 
 .auberge {
-	overflow: hidden;
-	border : 5px solid white;
-	border-radius: 20px;
+	padding: 5px 5px 5px 5px; 
+	border-radius: 10%;
 	margin-right: 15px; 
 	margin-left: 15px;
 	margin-bottom: 25px;
@@ -270,6 +266,8 @@ h2 {
 }
 
 .lit {
+	border-top-left-radius: 20px;
+border-top-right-radius: 20px;
 	height: 120px;
 	width: 240px;
 }
@@ -508,7 +506,7 @@ article {
 article {
 		margin-right: 15px;
 }
-
+}
 @media only screen and (max-width: 1270px) {
 	.auberge {
 		margin-right: 4px;
@@ -520,7 +518,7 @@ article {
 	padding-left: 25px;
 }
 
-
+}
 
 @media only screen and (max-width: 1203px) {
 
@@ -532,3 +530,4 @@ article {
 	article {
 		margin-right: 20px;
 	}
+}
