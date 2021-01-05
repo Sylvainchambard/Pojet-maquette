@@ -232,9 +232,12 @@ article p {
 
 
 }
+article h2 {
+	padding-left: 0px;
+}
 
 h2 {
-	width: 70%;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -309,11 +312,13 @@ aside {
 }
 
 .fleche {
-	padding-left: 90px;
+	padding-left: 80px;
 }
 /*---------------------------ACTIVITES-------------------------------------*/
 #ancre_activites{
-	margin:auto;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 30px;
 	width: 75%;
 }
  #activites {
