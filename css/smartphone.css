@@ -339,3 +339,62 @@ nav li:nth-child(3) {
 	margin-right:20px;
 
 	}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+	nav li:nth-child(2) {
+	position: absolute;
+	top: 20px;
+	left: 150px;
+	margin-right: 0px;
+}
+
+nav li:nth-child(3) {
+	position: absolute;
+	top :-30px;
+	left : 155px;
+	margin-right:20px;
+
+	}
+
+	aside {
+		width: 103%;
+	}
+
+	.fleche {
+		padding-left: 20px;
+	}
+
+	#activites {
+		margin-left: 5px;
+	}
+
+	footer {
+		width: 103%;
+	}
+}	
+
+
+@media only screen and (max-width: 280px) {
+
+	.recherche {
+		position: absolute;
+		left: 45px;
+		top: 211px;
+	}
+
+aside {
+	width: 118%;
+}
+
+#activites {
+	margin-left: 24px;
+}
+
+footer {
+	width: 118%;
+}
+
+	}
