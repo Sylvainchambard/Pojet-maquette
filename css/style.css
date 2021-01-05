@@ -278,12 +278,10 @@ aside {
 .populaires {
 	display: flex;
 	flex-wrap: nowrap;
-	overflow: hidden;
-	border: 5px solid white;
-	border-radius: 20px;
+	border-radius: 10%;
 	margin: 30px 0px;
 	width: 320px;
-	padding-right: 10px;
+	padding: 5px;
 	box-shadow: 0px 5px 5px #DFDFDF;
 	background-color: white;
 }
@@ -304,7 +302,6 @@ aside {
 
 .etoile {
 	display: flex;
-	margin-top: 18px;
 	padding-bottom: 10px;
 	padding-left: 8px;
 }
