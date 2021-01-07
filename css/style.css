@@ -97,7 +97,10 @@ header i {
 
 }
 
-
+.child {
+	width: 13px;
+	padding-left: 13px;
+}
 section i {
 	color: #0065FC
 }
