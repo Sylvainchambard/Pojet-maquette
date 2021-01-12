@@ -376,6 +376,13 @@ nav li:nth-child(3) {
 	margin-right:20px;
 
 	}
+aside {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+}
 
 }
 
