@@ -93,7 +93,7 @@ display: none; }
 	padding: 10px 10px 10px 10px;
 	color : white;
 	position: relative;
-	top : -270px;
+	top : -299px;
 	left: 269px;
 	margin-top: 25px;
 }
@@ -134,13 +134,13 @@ header i {
 
 .cercle .billet {
 	position: relative;
-	top: -5px;
+	top: -4px;
 	left: -18px;
 }
 
 .cercle .child {
 	position: relative;
-	top: -5px;
+	top: -4px;
 	left: -14px;
 }
 
@@ -153,7 +153,7 @@ header i {
 .cercle .dog {
 	position: relative;
 	top: -5px;
-	left: -16px;
+	left: -17px;
 }
 /***************** POPULAIRES ****************/
 
@@ -244,7 +244,7 @@ section p:last-child{
 /**************** ACTIVITES **************/
 
 #activites {
-	width: 100%;
+	width: 98%;
 	flex-direction: column;
 	
 	flex-wrap: wrap;
@@ -330,7 +330,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 463px) {
+@media only screen and (max-width: 464px) {
 
 	.loupe {
 	background-color: #0065FC;
@@ -339,7 +339,7 @@ footer {
 	padding: 10px 10px 10px 10px;
 	color : white;
 	position: relative;
-	top : -285px;
+	top : -315px;
 	left: 269px;
 	margin-top: 25px;
 }
@@ -354,7 +354,7 @@ footer {
 	padding: 10px 10px 10px 10px;
 	color : white;
 	position: relative;
-	top : -287px;
+	top : -315px;
 	left: 269px;
 	margin-top: 25px;
 
@@ -398,7 +398,11 @@ nav li:nth-child(3) {
 	}
 
 	aside {
-		width: 103%;
+		width: 109%;
+	}
+
+	section {
+		margin-left: 0px;
 	}
 
 	.fleche {
@@ -406,11 +410,11 @@ nav li:nth-child(3) {
 	}
 
 	#activites {
-		margin-left: 5px;
+		margin-left: 18px;
 	}
 
 	footer {
-		width: 103%;
+		width: 109%;
 	}
 }	
 
