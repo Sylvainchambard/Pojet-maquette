@@ -85,9 +85,9 @@ header {
 
 
 header i {
-	background-color: #DEEBFF;
+/*	background-color: #DEEBFF;
 	border-radius: 50%;
-	padding: 10px 12px 10px 12px;
+	padding: 10px 12px 10px 12px;*/
 	height: 20px;
 	color : #0065FC;
  	margin-top: 5px;
@@ -97,10 +97,38 @@ header i {
 
 }
 
-.child {
-	width: 13px;
-	padding-left: 13px;
+.cercle{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #DEEBFF;
+	margin-left: 15px;
 }
+
+.cercle .billet {
+	position: relative;
+	top: 5px;
+	right: 10px;
+}
+
+.cercle .child {
+	position: relative;
+	top: 5px;
+	right: 6px;
+}
+
+.cercle .coeur {
+	position: relative;
+	top: 6px;
+	right: 7px;
+}
+
+.cercle .dog {
+	position: relative;
+	top: 5px;
+	right: 8px;
+}
+
 main i {
 	color: #0065FC
 }
@@ -115,7 +143,7 @@ main i {
     border-bottom: 2.5px solid #F2F2F2;
     padding: 8px 40px 0px 40px;
     height: 27px;
-    margin-top : 5px;
+   /* margin-top : 5px;*/
 	margin-left: -20px;
 	margin-bottom: 0px;
 

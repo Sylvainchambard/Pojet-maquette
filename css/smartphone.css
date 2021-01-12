@@ -80,7 +80,7 @@ header p:last-child {
 
 
 .recherche {
-	width: 240px;
+	width: 220px;
 }
 
 .bouton { 
@@ -93,7 +93,7 @@ display: none; }
 	padding: 10px 10px 10px 10px;
 	color : white;
 	position: relative;
-	top : -272px;
+	top : -270px;
 	left: 269px;
 	margin-top: 25px;
 }
@@ -129,9 +129,32 @@ header i {
 	
 	padding-left: 28px;
 	padding-right: 20px;
-	margin-top: 4px;
+	margin-bottom: 14px;
 	}
 
+.cercle .billet {
+	position: relative;
+	top: -5px;
+	left: -18px;
+}
+
+.cercle .child {
+	position: relative;
+	top: -5px;
+	left: -14px;
+}
+
+.cercle .coeur {
+	position: relative;
+	top: -4px;
+	left: -16px;
+}
+
+.cercle .dog {
+	position: relative;
+	top: -5px;
+	left: -16px;
+}
 /***************** POPULAIRES ****************/
 
 aside {	
@@ -307,6 +330,20 @@ footer {
 
 }
 
+@media only screen and (max-width: 463px) {
+
+	.loupe {
+	background-color: #0065FC;
+	visibility: visible;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+	color : white;
+	position: relative;
+	top : -285px;
+	left: 269px;
+	margin-top: 25px;
+}
+}
 
 @media only screen and (max-width: 443px) {
 
@@ -317,7 +354,7 @@ footer {
 	padding: 10px 10px 10px 10px;
 	color : white;
 	position: relative;
-	top : -290px;
+	top : -287px;
 	left: 269px;
 	margin-top: 25px;
 
@@ -382,8 +419,8 @@ nav li:nth-child(3) {
 
 	.recherche {
 		position: absolute;
-		left: 45px;
-		top: 211px;
+		left: 48px;
+		top: 230px;
 	}
 
 aside {

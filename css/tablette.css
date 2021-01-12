@@ -21,13 +21,13 @@ nav {
 
 }
 
-section {
+main {
 	flex-direction: column-reverse;
 
 }
 
 
-article {
+section {
 	padding-bottom: 30px;
 	margin-right: 0px;
 
