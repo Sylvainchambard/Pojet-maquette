@@ -16,7 +16,7 @@ h2 {margin-left: 25px;
 
 }
 
-article h2 {
+section h2 {
 	
 }
 /**************** HEADER ***************/
@@ -169,7 +169,7 @@ aside {
 }
 
 /**************** HEBERGEMENTS ****************/
-section {
+main {
 	flex-direction: column-reverse;
 	flex-wrap: wrap;
 	width: 100%;
@@ -180,7 +180,7 @@ section {
 	
 }
 
-article {
+section {
 	flex-direction: column;
 	background-color: transparent;
 	width: auto;
@@ -200,7 +200,7 @@ article {
 	
 }
 
-.auberge {
+article {
 	
 	width: 320px;
 	margin: 15px 0px 0px 0px;
@@ -213,7 +213,7 @@ article {
 
 }
 
-article p:last-child{
+section p:last-child{
 	margin-left: 15px;
 	margin-top: 20px;
 }
