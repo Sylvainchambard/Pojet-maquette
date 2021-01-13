@@ -486,7 +486,7 @@ h4 {
 
 #ancre_activites{
 	width: 80%;
-}
+	}
 
 }
 
@@ -496,9 +496,8 @@ article {
 		margin-left: 10px;
 	}
 
-
-
 }
+
 
 @media only screen and (max-width: 1470px) {
 
@@ -527,7 +526,7 @@ article {
 
 	#ancre_activites{
 	width: 94%;
-}
+	}
 }
 
 @media only screen and (max-width: 1366px) {
@@ -548,7 +547,7 @@ section {
 		margin-left: 4px;
 	}
 
-	
+
 	.foot {
 	margin-right: 150px;
 	padding-left: 25px;
