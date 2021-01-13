@@ -160,27 +160,17 @@ header i {
 aside {	
 	width: 100%;
 	padding: inherit;
-
-
-
 }
 
 .populaires {
 	width: 320px;
-	
 	margin: 0px 0px 15px 0px;
-	
-	
-	
-}
+	}
 
 #bloc {
 	width: 100%;
 	min-width: auto;
 	display: flex;
-	
-	
-
 }
 
 .texte {
@@ -196,8 +186,6 @@ main {
 	flex-direction: column-reverse;
 	flex-wrap: wrap;
 	width: 100%;
-	
-	
 }
 
 section {
@@ -206,9 +194,6 @@ section {
 	width: auto;
 	padding: 0px 0px 0px 0px;
 	margin: auto;
-
-	
-
 }
 
 #contener {
@@ -216,21 +201,17 @@ section {
 	display: flex;
 	flex-direction: column;
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 }
 
 article {
 	
 	width: 320px;
 	margin: 15px 0px 0px 0px;
-
 }
 
 .lit {
 	width: 320px;
-	
-
 }
 
 section p:last-child{
