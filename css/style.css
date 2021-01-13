@@ -359,9 +359,15 @@ aside p:nth-child(2){
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
-	width: 100%;
+	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
+
+}
+
+#activites a {
+	text-decoration: none;
+	color : black;
 }
 
 .element {
