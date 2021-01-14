@@ -3,39 +3,28 @@
   	body {
 	width: auto;
 	margin :15px 10px;
-	
 }
 
 nav { 
 	margin-right: 50px;
-	
-
 }
 
 #forme {
 	flex-wrap: wrap;
-	
-}
-
-.filtre {
-
 }
 
 main {
 	flex-direction: column-reverse;
-
 }
-
 
 section {
 	padding-bottom: 30px;
 	margin-right: 0px;
-
 }
 
 aside {
 	margin-top: 25px;
-margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 #contener{
@@ -43,14 +32,13 @@ margin-bottom: 15px;
 }
 
 .populaires {
-margin: 8px 0px;
-width: 280px;
+	margin: 8px 0px;
+	width: 280px;
 }
 
 .texte {
 	flex-wrap: wrap;
 	margin-top: -12px;
-	
 }
 
 #bloc {
@@ -81,8 +69,7 @@ footer {
 	margin-right: 10px; 
 	position: relative;
 	top :20px;
-
-	}
+}
 
 
 }

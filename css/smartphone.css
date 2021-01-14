@@ -4,7 +4,6 @@
 	
 
 
-
 body {
 	width: 100%;
 	margin: auto;
@@ -13,20 +12,13 @@ body {
 h2 {margin-left: 25px;
 	margin-top: 25px;
 	width: 80%;
-
 }
 
-section h2 {
-	
-}
 /**************** HEADER ***************/
 	
-
-
 header {
 	width: auto;
 	margin-left: 15px;
-	
 }
 
 nav ul {
@@ -84,7 +76,8 @@ header p:last-child {
 }
 
 .bouton { 
-display: none; }
+	display: none; 
+}
 
 .loupe {
 	background-color: #0065FC;
@@ -100,11 +93,6 @@ display: none; }
 
 .info {
 	padding: 3px 10px
-	
-}
-
-.map {
-
 }
 
 header i {
@@ -113,7 +101,6 @@ header i {
 
 .bulle-billet, .bulle-coeur, .bulle-chien  {
 	margin-left: -15px;
-	
 	margin-bottom:  15px;
 	margin-top: -10px;
 }
@@ -122,15 +109,13 @@ header i {
 	flex-wrap: wrap;
 	flex-direction: column;
 	margin-left: 3px;
-	
 }
 
 .filtre {
-	
 	padding-left: 28px;
 	padding-right: 20px;
 	margin-bottom: 14px;
-	}
+}
 
 .cercle .billet {
 	position: relative;
@@ -166,16 +151,12 @@ aside {
 .populaires {
 	width: 320px;
 	margin: 0px 0px 15px 0px;
-	}
+}
 
 #bloc {
 	width: 100%;
 	min-width: auto;
 	display: flex;
-}
-
-.texte {
-	
 }
 
 .fleche {
@@ -205,8 +186,7 @@ section {
 	margin-right: auto;	
 }
 
-article {
-	
+article {	
 	width: 320px;
 	margin: 15px 0px 0px 0px;
 }
@@ -215,7 +195,7 @@ article {
 	width: 320px;
 }
 
-section p:last-child{
+section p:last-child {
 	margin-left: 15px;
 	margin-top: 20px;
 }
@@ -225,7 +205,6 @@ section p:last-child{
 #activites {
 	width: 98%;
 	flex-direction: column;
-	
 	flex-wrap: wrap;
 	margin-right: auto;
 	margin-left: auto;
@@ -234,16 +213,13 @@ section p:last-child{
 .element {
 	width: 330px;
 	margin-right: 0px;
-
 }
 
 .element2 {
 	width: 330px;
-
 }
 
 .rangement1 {
-	
 	padding-bottom: 15px;
 	width: 330px;
 	height: 140px;
@@ -259,7 +235,6 @@ section p:last-child{
 	display: flex;
 	margin: auto;
 	width: 330px;
-
 }
 
 .calanque1 {
@@ -268,14 +243,22 @@ section p:last-child{
 	width: 330px;
 }
 
-.port { display: none;
-
+.port { 
+	display: none;
 }
-.calanque {display: none;}
-.fort { width: 330px;
-height: 120px; }
-.ile { width: 330px;
-height: 120px; }
+
+.calanque {
+	display: none;
+}
+
+.fort { 
+	width: 330px;
+	height: 120px; 
+}
+.ile { 
+	width: 330px;
+	height: 120px; 
+}
 
 .dame {
 	width: 330px;
@@ -285,7 +268,6 @@ height: 120px; }
 .parc {
 	width: 330px;
 	height: 120px;
-
 }
 
 /***************** FOOTER *****************/
@@ -293,7 +275,6 @@ height: 120px; }
 footer {
 	flex-direction: column;
 	width: 100%;
-
 }
 
 .foot {
@@ -302,7 +283,6 @@ footer {
 	margin-left: 0px;
 	padding-left: 0px;
 }
-
 
 }
 
@@ -333,7 +313,7 @@ footer {
 	top : -315px;
 	left: 269px;
 	margin-top: 25px;
-	}
+}
 }
 
 @media only screen and (max-width: 364px) {
@@ -350,8 +330,8 @@ nav li:nth-child(3) {
 	top :-30px;
 	left : 170px;
 	margin-right:20px;
+}
 
-	}
 aside {
 	width: 100%;
 }
@@ -365,19 +345,18 @@ footer {
 @media only screen and (max-width: 320px) {
 
 	nav li:nth-child(2) {
-	position: absolute;
-	top: 20px;
-	left: 150px;
-	margin-right: 0px;
+		position: absolute;
+		top: 20px;
+		left: 150px;
+		margin-right: 0px;
 	}
 
 
-nav li:nth-child(3) {
-	position: absolute;
-	top :-30px;
-	left : 155px;
-	margin-right:20px;
-
+	nav li:nth-child(3) {
+		position: absolute;
+		top :-30px;
+		left : 155px;
+		margin-right:20px;
 	}
 
 	aside {
@@ -406,16 +385,16 @@ nav li:nth-child(3) {
 		top: 230px;
 	}
 
-aside {
-	width: 118%;
-	}
+	aside {
+		width: 118%;
+		}
 
-#activites {
-	margin-left: 24px;
-	}
+	#activites {
+		margin-left: 24px;
+		}
 
-footer {
-	width: 118%;
-	}
+	footer {
+		width: 118%;
+		}
 
 }
