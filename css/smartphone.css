@@ -160,6 +160,7 @@ header i {
 aside {	
 	width: 100%;
 	padding: inherit;
+	border-radius: inherit;
 }
 
 .populaires {
