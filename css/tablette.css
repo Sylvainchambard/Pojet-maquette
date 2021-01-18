@@ -1,12 +1,24 @@
 @media only screen and (max-width: 1023px)
   {
   	body {
-	width: auto;
-	margin :15px 10px;
+	width: 100%;
+	margin: auto;
+}
+
+.titre {
+	margin-bottom: 15px;
+
 }
 
 nav { 
 	margin-right: 50px;
+
+	position: relative;
+	bottom: 0px;
+}
+
+nav ul {
+
 }
 
 #forme {
@@ -15,25 +27,33 @@ nav {
 
 main {
 	flex-direction: column-reverse;
+	/*width: max-content;
+	*/
 }
 
 section {
 	padding-bottom: 30px;
-	margin-right: 0px;
+	margin: auto;
 }
 
 aside {
+
 	margin-top: 25px;
 	margin-bottom: 15px;
-}
+	}
 
-#contener{
-	justify-content: center;
+.photo {
+	width: 175px;
+	height: 175px;
+	margin-bottom: 11px;
+
 }
 
 .populaires {
 	margin: 8px 0px;
-	width: 280px;
+	flex-direction: column;
+	width: 180px;
+
 }
 
 .texte {
@@ -51,25 +71,22 @@ aside {
 #activites {
 	flex-wrap: wrap;
 	margin-right: 0px;
+	justify-content: space-around;
 }
 
 footer {
 	width: auto;
+	flex-wrap: wrap;
 }
 
 .foot {
 	margin-right: 5px;
 }
 
-}
+.foot:nth-child(2){
+	padding-left: 30px;
+	}
 
-@media only screen and (max-width: 675px)
-  {
-  	nav { 
-	margin-right: 10px; 
-	position: relative;
-	top :20px;
-}
-
-
-}
+.foot:nth-child(3){
+	padding-left: 30px;
+	}

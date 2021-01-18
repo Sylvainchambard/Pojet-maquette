@@ -79,7 +79,7 @@ ul{
 
 
 header {
-	max-width: 1350px;
+	max-width: 1250px;
 	margin: auto;
 	padding-left: 15px;
 }
@@ -218,10 +218,11 @@ header p:last-child{
 
 main {
     display: flex;
+    justify-content: center;
     margin-bottom: 40px;
-    max-width: 1350px;
-    margin-left: auto;
-	margin-right: auto;
+    max-width: 1650px;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
 main a{
@@ -235,7 +236,7 @@ section, aside {
 }
 
 section {
-	max-width: 850px;
+	max-width: 900px;
     margin-right: 40px;
     padding-top: 10px;   
 }
@@ -245,15 +246,9 @@ section p {
 }
 
 section h2 {
-	padding-left: 0px;
+	padding-left: 20px;
 }
 
-h2 {
-	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10px;
-}
 
  h3 {
  	padding-left: 8px;
@@ -334,13 +329,11 @@ aside p:nth-child(2) {
 #ancre_activites {
 	margin-left:auto;
 	margin-right: auto;
-	margin-bottom: 30px;
-	width: 75%;
+	max-width: 1350px;
 }
  #activites {
 	display: flex;
 	justify-content: space-around;
-	align-content: center;
 	max-width: 1350px;
 	margin-left: auto;
 	margin-right: auto;
@@ -350,6 +343,11 @@ aside p:nth-child(2) {
 	text-decoration: none;
 	color : black;
 }
+
+#ancre_activites h2 {
+	padding-left: 30px;
+	}
+
 
 .element {
 	overflow: hidden;
@@ -400,23 +398,32 @@ aside p:nth-child(2) {
 footer {
 	display: flex;
 	background-color: #F2F2F2;
-	width: 80%;
+	max-width: 1400px;
 	margin: auto;
 }
 
 footer a {
 	text-decoration: none;
 	color: black;
+
 }
 
 footer li {
 	padding-top: 10px;
+	list-style-type: none;
 }
 
 .foot {
-	margin-right: 200px;
 	padding-left: 25px;
 }
+
+.foot:nth-child(2){
+	padding-left: 195px;
+}
+
+.foot:nth-child(3){
+	padding-left: 195px;
+	}
 
 h4 {
 	padding-left: 43px;
