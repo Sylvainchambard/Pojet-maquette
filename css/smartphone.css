@@ -19,6 +19,17 @@ header {
 	padding-left: 15px;
 }
 
+nav {
+	flex-direction: column-reverse;
+}
+
+.ok {
+	
+}
+.mobile {
+	width: 100%;
+}
+
 .titre {
 	max-width: 480px;
 	justify-content: space-around;
@@ -52,7 +63,9 @@ header {
 	margin-bottom: 25px;
 }
 
-
+#forme {
+	flex-direction: column;
+}
 
 .filtre {
 	padding: 8px 30px 0px 30px
@@ -154,7 +167,7 @@ article {
 }
 
 .rangement2 {
-	margin: 10px 0px 0px 10px;
+	margin: 10px 0px 0px 0px;
 	width: 322px;
 	
 }

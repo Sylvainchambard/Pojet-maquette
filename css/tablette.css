@@ -12,35 +12,24 @@
 }
 
 nav { 
-	width: 45%;	
+	width: 100%;	
 	
 }
 
-nav li a:hover {	
+nav a:hover {	
 	border-bottom: 2px solid #0065FC;
 	border-top: none;
     color: #0065FC ;
     font-weight: normal;
       margin-top: -2px;
       padding-bottom: 15px;
-	width: 150%;
+	
 }
 
 .mobile{
-	position: relative;
-	top: 60px;
+	
 }
 
-nav li:nth-child(1) {
-	margin-right:  80px;
-}
-nav li:nth-child(2) {
-	margin-right:  -50px;
-}
-
-nav li:nth-child(3) {
-	margin-right: 10px;
-}
 
 nav li:nth-child(-n+2) {
 
