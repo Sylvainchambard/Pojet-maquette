@@ -27,8 +27,6 @@ header {
 
 /******************** FILTRES *******************/
 
-
-
 .recherche {
 	width: 280px;
 	margin-top: 6px;
@@ -65,9 +63,7 @@ header {
 	margin-bottom: 10px;
 }
 
-.bulle-enfant {
-	flex-wrap: nowrap;
-}
+
 /***************** POPULAIRES ****************/
 
 aside {	
