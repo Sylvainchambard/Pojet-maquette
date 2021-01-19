@@ -9,70 +9,30 @@ body {
 	margin: auto;
 }
 
-h2 {margin-left: 25px;
-	margin-top: 25px;
-	width: 80%;
-}
+
 
 /**************** HEADER ***************/
 	
 header {
-	width: auto;
-	margin-left: 15px;
+	
+	margin: auto;
+	padding-left: 15px;
 }
 
-nav ul {
-	margin-bottom: 30px;
+.titre {
+	max-width: 480px;
+	justify-content: space-around;
+	margin: auto;
 }
-
-nav a:hover {
-	border-top :none;
-	padding-left: 50px;
-	padding-right: 50px;
-	border-bottom: 3px solid #0065FC;
-	position: relative;
-	left: -35px;
-}
-
-nav li:first-child {
-	position: absolute;
-	top: 20px;
-	left:-20px;
-}
-
-nav li:nth-child(2) {
-	position: absolute;
-	top: 20px;
-	left: 200px;
-	margin-right: 0px;
-}
-
-nav li:nth-child(3) {
-	position: absolute;
-	top :-30px;
-	left : 200px;
-	margin-right:20px;
-}
-
-
-h1 {
-	padding-top: 15px;
-	font-size: 1.3em;
-}
-
-header p:last-child {
-	font-size: 0.9em;
-	margin-top: -10px;
-	margin-left: 20px;
-}
-
 
 /******************** FILTRES *******************/
 
 
 
 .recherche {
-	width: 220px;
+	width: 280px;
+	margin-top: 6px;
+	margin-left:0px;
 }
 
 .bouton { 
@@ -85,316 +45,193 @@ header p:last-child {
 	border-radius: 10px;
 	padding: 10px 10px 10px 10px;
 	color : white;
-	position: relative;
-	top : -299px;
-	left: 269px;
-	margin-top: 25px;
+	margin-left: 0px;
 }
 
-.info {
-	padding: 3px 10px
+.barre {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-bottom: 25px;
 }
 
-header i {
-	padding: 10px 9px 8px 9px;
-		}
 
-.bulle-billet, .bulle-coeur, .bulle-chien  {
-	margin-left: -15px;
-	margin-bottom:  15px;
-	margin-top: -10px;
-}
-
-#forme {
-	flex-wrap: wrap;
-	flex-direction: column;
-	margin-left: 3px;
-}
 
 .filtre {
-	padding-left: 28px;
-	padding-right: 20px;
-	margin-bottom: 14px;
+	padding: 8px 30px 0px 30px
+
 }
 
-.cercle .billet {
-	position: relative;
-	top: -4px;
-	left: -18px;
+.cercle {
+	margin-bottom: 10px;
 }
 
-.cercle .child {
-	position: relative;
-	top: -4px;
-	left: -14px;
-}
-
-.cercle .coeur {
-	position: relative;
-	top: -4px;
-	left: -16px;
-}
-
-.cercle .dog {
-	position: relative;
-	top: -5px;
-	left: -17px;
+.bulle-enfant {
+	flex-wrap: nowrap;
 }
 /***************** POPULAIRES ****************/
 
 aside {	
-	width: 100%;
-	padding: inherit;
+	min-width: 273px;
+    max-width: 480px;
+	
 	border-radius: inherit;
 }
 
 .populaires {
+	flex-direction: row;
 	width: 320px;
 	margin: 0px 0px 15px 0px;
 }
 
-#bloc {
-	width: 100%;
-	min-width: auto;
-	display: flex;
+.texte {
+	justify-content: space-evenly;
 }
+
+.photo {
+	height: 150px;
+	width: 150px;
+	border-radius: 20px 0px 0px 20px;
+	margin-bottom: 0px;
+}
+
 
 .fleche {
 	padding-left: 30px;
 }
 
 /**************** HEBERGEMENTS ****************/
-main {
-	flex-direction: column-reverse;
-	flex-wrap: wrap;
-	width: 100%;
-}
 
-section {
-	flex-direction: column;
-	background-color: transparent;
-	width: auto;
-	padding: 0px 0px 0px 0px;
-	margin: auto;
+
+
+section {	
+	min-width: 273px;
+    max-width: 480px;
+		background-color: transparent;
 }
 
 #contener {
-	width: 80%;
-	display: flex;
-	flex-direction: column;
-	margin-left: auto;
-	margin-right: auto;	
+	width: 320px;
 }
 
-article {	
-	width: 320px;
-	margin: 15px 0px 0px 0px;
+article {
+	width: 330px; 
+	
+
 }
 
 .lit {
-	width: 320px;
-}
-
-section p:last-child {
-	margin-left: 15px;
-	margin-top: 20px;
+	width :330px;
+	height: 150px;
 }
 
 /**************** ACTIVITES **************/
 
 #activites {
-	width: 98%;
-	flex-direction: column;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 .element {
-	width: 330px;
+	width: 322px;
+	min-width: 273px;
+    max-width: 480px;
 	margin-right: 0px;
 }
 
 .element2 {
-	width: 330px;
+	width: 322px;
+	min-width: 273px;
+    max-width: 480px;
 }
 
 .rangement1 {
-	padding-bottom: 15px;
-	width: 330px;
+	padding-bottom: 35px;
+	width: 322px;
+	min-width: 273px;
+    max-width: 480px;
 	height: 140px;
 	margin-bottom: 20px;
-	margin-right: inherit;
+	margin-left: 10px;
+	
 }
 
 .rangement2 {
-	margin: 10px 0px 0px 0px;
+	margin: 10px 0px 0px 10px;
+	width: 322px;
+	
 }
 	
-.port1{
-	display: flex;
-	margin: auto;
-	width: 330px;
-}
-
-.calanque1 {
-	display: flex;
-	margin: auto;
-	width: 330px;
-}
 
 .port { 
-	display: none;
+	height: 120px;
+    width: 100%;
+    min-width: 273px;
+    max-width: 332px;
+    object-fit: cover
 }
 
 .calanque {
-	display: none;
+	height: 120px;
+    width: 100%;
+    min-width: 273px;
+    max-width: 322px;
+    object-fit: cover
 }
 
 .fort { 
 	width: 330px;
 	height: 120px; 
+	min-width: 273px;
+    max-width: 322px;
+	object-fit: cover
 }
 .ile { 
 	width: 330px;
 	height: 120px; 
+	min-width: 273px;
+    max-width: 322px;
+	object-fit: cover
 }
 
 .dame {
 	width: 330px;
 	height: 120px;
+	min-width: 273px;
+    max-width: 322px;
+	object-fit: cover
 }
 
 .parc {
 	width: 330px;
 	height: 120px;
+	min-width: 273px;
+    max-width: 322px;
+	object-fit: cover
 }
 
 /***************** FOOTER *****************/
 
 footer {
 	flex-direction: column;
-	width: 100%;
-}
+	}
 
+h4 {
+	width: 80%;
+}
 .foot {
-	width: 100%;
+	width: 80%;
 	margin-right: 0px;
 	margin-left: 0px;
 	padding-left: 0px;
 }
 
+.foot:nth-child(2) {
+    padding-left: 0px;
+    }
+
+.foot:nth-child(3) {
+    padding-left: 0px;
+    }
 }
-/*
-@media only screen and (max-width: 464px) {
-
-	.loupe {
-	background-color: #0065FC;
-	visibility: visible;
-	border-radius: 10px;
-	padding: 10px 10px 10px 10px;
-	color : white;
-	position: relative;
-	top : -315px;
-	left: 269px;
-	margin-top: 25px;
-}
-}
-
-@media only screen and (max-width: 443px) {
-
-	.loupe {
-	background-color: #0065FC;
-	visibility: visible;
-	border-radius: 10px;
-	padding: 10px 10px 10px 10px;
-	color : white;
-	position: relative;
-	top : -315px;
-	left: 269px;
-	margin-top: 25px;
-}
-}
-
-@media only screen and (max-width: 364px) {
-
-	nav li:nth-child(2) {
-	position: absolute;
-	top: 20px;
-	left: 170px;
-	margin-right: 0px;
-}
-
-nav li:nth-child(3) {
-	position: absolute;
-	top :-30px;
-	left : 170px;
-	margin-right:20px;
-}
-
-aside {
-	width: 100%;
-}
-
-footer {
-	width: 100%;
-}
-
-}
-
-@media only screen and (max-width: 320px) {
-
-	nav li:nth-child(2) {
-		position: absolute;
-		top: 20px;
-		left: 150px;
-		margin-right: 0px;
-	}
-
-
-	nav li:nth-child(3) {
-		position: absolute;
-		top :-30px;
-		left : 155px;
-		margin-right:20px;
-	}
-
-	aside {
-		width: 109%;
-	}
-
-	.fleche {
-		padding-left: 20px;
-	}
-
-	#activites {
-		margin-left: 18px;
-	}
-
-	footer {
-		width: 109%;
-	}
-}	
-
-
-@media only screen and (max-width: 280px) {
-
-	.recherche {
-		position: absolute;
-		left: 48px;
-		top: 230px;
-	}
-
-	aside {
-		width: 118%;
-		}
-
-	#activites {
-		margin-left: 24px;
-		}
-
-	footer {
-		width: 118%;
-		}
-
-}*/

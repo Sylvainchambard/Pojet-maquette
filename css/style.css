@@ -207,9 +207,7 @@ main i {
 	visibility: hidden;
 }
 
-header p:last-child{
-	margin-left: -25px;
-}
+
 
 
 /*-------------------------- HEBERGEMENTS----------------------------------------------*/
@@ -379,7 +377,6 @@ aside p:nth-child(2) {
 	display: flex;
 	flex-direction: column;
 	width: 300px;
-	
 }
 
 
@@ -387,8 +384,6 @@ aside p:nth-child(2) {
 	padding-left: 10px;
 }
 
-.calanque1 {display: none;}
-.port1 {display: none;}
 
 
 /*------------------------FOOTER-------------------------------------------------*/
