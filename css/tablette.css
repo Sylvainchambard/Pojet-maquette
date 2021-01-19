@@ -1,34 +1,96 @@
 @media only screen and (max-width: 1023px)
-  {
-  	body {
-	width: 100%;
-	margin: auto;
-}
 
-.titre {
-	margin-bottom: 15px;
-	width: 100%;
+{
+
+
+h1 {
+	margin-top: 0px
 
 }
 
 nav { 
-	width: 100%;	
+	padding-top: 20px;
+	flex-direction: column-reverse;
+	
+
+}
+nav a {
+	margin: 0px;
+}
+
+.mobile a {
+	 
+	width: 50%;
+	height: 30px;
+	padding-left: 60px;
+	padding-right: 30px;
+	margin-right: inherit;
+    
+}
+
+.mobile {border-bottom: 1px solid #F2F2F2;
+	margin-top: 30px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.ok {
+	height: 20px;
+
+	justify-content: flex-end;
+	position: relative;
+    bottom: 40px;
+    padding-right: 20px;
+
+}
+
+.act, .heb {
+	width: 50%;
+}
+
+nav a:hover {   border-bottom: 3px solid #0065FC;
+		border-top: none;
+		margin-top: inherit;
+		padding-top: inherit;
+		font-weight: normal;
+
+}
+
+nav .ok:hover {	
+
+	border:none;
+	margin-top: -20px;
+	
+
+}
+
+
+
+
+/*
+
+.act:hover{
+	
+	border-top: none;
+	margin-bottom: -2px;
 	
 }
 
-nav a:hover {	
+.heb:hover {
 	border-bottom: 2px solid #0065FC;
 	border-top: none;
-    color: #0065FC ;
-    font-weight: normal;
-      margin-top: -2px;
-      padding-bottom: 15px;
+	margin-bottom: 0px;
 	
+}	
+.mobile {
+	width: 100%;
+	margin: auto;
+	height: 30px;
 }
 
-.mobile{
-	
-}
+*/
 
 
 nav li:nth-child(-n+2) {
@@ -41,8 +103,7 @@ nav li:nth-child(-n+2) {
 
 main {
 	flex-direction: column-reverse;
-	/*width: max-content;
-	*/
+
 }
 
 section {

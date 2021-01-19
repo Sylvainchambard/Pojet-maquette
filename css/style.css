@@ -27,7 +27,7 @@ nav {
 	
 	justify-content: flex-end;
 	position: relative;
-	bottom: 30px;
+	bottom: 16px;
 }
 
 .mobile {
@@ -60,8 +60,8 @@ nav a
 nav a:hover {	
 	border-top: 2px solid #0065FC;
     color: #0065FC ;
-    font-weight: normal;
-    margin-top: -48px;
+   font-weight: bold;
+    margin-top: -47px;
     padding-top: 45px;
 	
 }
@@ -69,11 +69,15 @@ nav a:hover {
 
 /*------------------------- FILTRE ---------------------------------------------*/
 
+header p, h1, .logo, .barre {
+	padding-left: 15px;
+}
 
 header {
 	max-width: 1250px;
 	margin: auto;
-	padding-left: 15px;
+
+	
 }
 
 header i {
@@ -364,7 +368,7 @@ aside p:nth-child(2) {
 	border-radius: 20px 20px 20px 20px;
 	overflow: hidden;
 	background-color: white;
-	
+	margin-bottom: 30px;
 	height: 400px;
 	width: 300px;
 

@@ -4,37 +4,73 @@
 	
 
 
-body {
-	width: 100%;
-	margin: auto;
-}
-
-
 
 /**************** HEADER ***************/
 	
+
+/*
 header {
 	
 	margin: auto;
-	padding-left: 15px;
+	
 }
+ h1 {
+ 	padding-left: 25px;
+ }
 
 nav {
+	padding-top: 20px;
 	flex-direction: column-reverse;
+	border-bottom: 2px solid #F2F2F2;
+
+}
+
+
+
+nav a:last-child {
+	width: auto;
+
+}
+
+
+.heb, .act {
+	width: 50%;
 }
 
 .ok {
-	
+	justify-content: flex-end;
+	position: relative;
+    bottom: 25px;
+    padding-right: 10px;
 }
 .mobile {
 	width: 100%;
+	margin: auto;
+	height: 30px;
 }
 
 .titre {
-	max-width: 480px;
+	
 	justify-content: space-around;
 	margin: auto;
+	
 }
+
+.logo {
+	padding-left: 15px;
+}
+
+.act:hover{
+	border-bottom: 2px solid #0065FC;
+	border-top: none;
+	
+}
+
+.heb:hover {
+	border-bottom: 2px solid #0065FC;
+	border-top: none;
+	
+}	
 
 /******************** FILTRES *******************/
 
@@ -65,6 +101,7 @@ nav {
 
 #forme {
 	flex-direction: column;
+	padding-left: 15px;
 }
 
 .filtre {
