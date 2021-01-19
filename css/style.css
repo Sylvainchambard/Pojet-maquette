@@ -41,9 +41,10 @@ nav .ok a {
 
 nav ul {
 	display: flex;
+	/*flex-wrap: wrap-reverse;*/
 	
 	list-style-type: none;
-	line-height: 100px;
+	line-height: 80px;
 	margin-bottom: 20px;
 }
 
@@ -62,18 +63,15 @@ nav li
     width: max-content;
 }
 
-nav li:hover {	
+nav li a:hover {	
 	border-top: 2px solid #0065FC;
     color: #0065FC ;
     font-weight: normal;
-    width : max-content;
-    margin-top: -2px;
+      margin-top: -2px;
+      padding-top: 30px;
 	
 }
 
-ul{
-	
-}
 
 /*------------------------- FILTRE ---------------------------------------------*/
 
