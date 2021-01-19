@@ -1,283 +1,271 @@
 
-
-@media only screen and (max-width: 480px) {
-	
-
-
-
-/**************** HEADER ***************/
-	
-
-/*
-header {
-	
-	margin: auto;
-	
-}
- h1 {
- 	padding-left: 25px;
- }
-
-nav {
-	padding-top: 20px;
-	flex-direction: column-reverse;
-	border-bottom: 2px solid #F2F2F2;
-
-}
-
-
-
-nav a:last-child {
-	width: auto;
-
-}
-
-
-.heb, .act {
-	width: 50%;
-}
-
-.ok {
-	justify-content: flex-end;
-	position: relative;
-    bottom: 25px;
-    padding-right: 10px;
-}
-.mobile {
-	width: 100%;
-	margin: auto;
-	height: 30px;
-}
-
-.titre {
-	
-	justify-content: space-around;
-	margin: auto;
-	
-}
-
-.logo {
-	padding-left: 15px;
-}
-
-.act:hover{
-	border-bottom: 2px solid #0065FC;
-	border-top: none;
-	
-}
-
-.heb:hover {
-	border-bottom: 2px solid #0065FC;
-	border-top: none;
-	
-}	
-
-/******************** FILTRES *******************/
-
-.recherche {
-	width: 280px;
-	margin-top: 6px;
-	margin-left:0px;
-}
-
-.bouton { 
-	display: none; 
-}
-
-.loupe {
-	background-color: #0065FC;
-	visibility: visible;
-	border-radius: 10px;
-	padding: 10px 10px 10px 10px;
-	color : white;
-	margin-left: 0px;
-}
-
-.barre {
-	display: flex;
-	flex-wrap: nowrap;
-	margin-bottom: 25px;
-}
-
-#forme {
-	flex-direction: column;
-	padding-left: 15px;
-}
-
-.filtre {
-	padding: 8px 30px 0px 30px
-
-}
-
-.cercle {
-	margin-bottom: 10px;
-}
-
-
-/***************** POPULAIRES ****************/
-
-aside {	
-	min-width: 273px;
-    max-width: 480px;
-	
-	border-radius: inherit;
-}
-
-.populaires {
-	flex-direction: row;
-	width: 320px;
-	margin: 0px 0px 15px 0px;
-}
-
-.texte {
-	justify-content: space-evenly;
-}
-
-.photo {
-	height: 150px;
-	width: 150px;
-	border-radius: 20px 0px 0px 20px;
-	margin-bottom: 0px;
-}
-
-
-.fleche {
-	padding-left: 30px;
-}
-
-/**************** HEBERGEMENTS ****************/
-
-
-
-section {	
-	min-width: 273px;
-    max-width: 480px;
-		background-color: transparent;
-}
-
-#contener {
-	width: 320px;
-}
-
-article {
-	width: 330px; 
-	
-
-}
-
-.lit {
-	width :330px;
-	height: 150px;
-}
-
-/**************** ACTIVITES **************/
-
-#activites {
-	justify-content: center;
-	flex-wrap: wrap;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.element {
-	width: 322px;
-	min-width: 273px;
-    max-width: 480px;
-	margin-right: 0px;
-}
-
-.element2 {
-	width: 322px;
-	min-width: 273px;
-    max-width: 480px;
-}
-
-.rangement1 {
-	padding-bottom: 35px;
-	width: 322px;
-	min-width: 273px;
-    max-width: 480px;
-	height: 140px;
-	margin-bottom: 20px;
-	margin-left: 10px;
-	
-}
-
-.rangement2 {
-	margin: 10px 0px 0px 0px;
-	width: 322px;
-	
-}
-	
-
-.port { 
-	height: 120px;
-    width: 100%;
-    min-width: 273px;
-    max-width: 332px;
-    object-fit: cover
-}
-
-.calanque {
-	height: 120px;
-    width: 100%;
-    min-width: 273px;
-    max-width: 322px;
-    object-fit: cover
-}
-
-.fort { 
-	width: 330px;
-	height: 120px; 
-	min-width: 273px;
-    max-width: 322px;
-	object-fit: cover
-}
-.ile { 
-	width: 330px;
-	height: 120px; 
-	min-width: 273px;
-    max-width: 322px;
-	object-fit: cover
-}
-
-.dame {
-	width: 330px;
-	height: 120px;
-	min-width: 273px;
-    max-width: 322px;
-	object-fit: cover
-}
-
-.parc {
-	width: 330px;
-	height: 120px;
-	min-width: 273px;
-    max-width: 322px;
-	object-fit: cover
-}
-
-/***************** FOOTER *****************/
-
-footer {
-	flex-direction: column;
+@media only screen and (max-width: 480px)
+{
+	/**************** HEADER ***************/
+	header
+	{
+		margin: auto;
 	}
 
-h4 {
-	width: 80%;
-}
-.foot {
-	width: 80%;
-	margin-right: 0px;
-	margin-left: 0px;
-	padding-left: 0px;
-}
+	h1
+	{
+		padding-left: 25px;
+	}
 
-.foot:nth-child(2) {
-    padding-left: 0px;
-    }
+	nav
+	{
+		padding-top: 20px;
+		flex-direction: column-reverse;
+		border-bottom: 2px solid #F2F2F2;
+	}
 
-.foot:nth-child(3) {
-    padding-left: 0px;
-    }
+	nav a:last-child
+	{
+		width: auto;
+	}
+
+	.heb, .act
+	{
+		width: 50%;
+	}
+
+	.ok
+	{
+		justify-content: flex-end;
+		position: relative;
+		bottom: 40px;
+		padding-right: 10px;
+	}
+
+	.mobile
+	{
+		width: 100%;
+		margin: auto;
+		height: 30px;
+	}
+
+	
+	
+
+
+	/******************** FILTRES *******************/
+	.recherche
+	{
+		width: 280px;
+		margin-top: 6px;
+		margin-left:0px;
+	}
+
+	.bouton
+	{
+		display: none;
+	}
+
+	.loupe
+	{
+		background-color: #0065FC;
+		visibility: visible;
+		border-radius: 10px;
+		padding: 10px 10px 10px 10px;
+		color : white;
+		margin-left: 0px;
+	}
+
+	.barre
+	{
+		display: flex;
+		flex-wrap: nowrap;
+		margin-bottom: 25px;
+	}
+
+	#forme
+	{
+		flex-direction: column;
+		padding-left: 15px;
+	}
+
+	.filtre
+	{
+	padding: 8px 30px 0px 30px}
+
+	.cercle
+	{
+		margin-bottom: 10px;
+	}
+
+	/***************** POPULAIRES ****************/
+	aside
+	{
+		min-width: 273px;
+		max-width: 480px;
+		border-radius: inherit;
+	}
+
+	.populaires
+	{
+		flex-direction: row;
+		width: 320px;
+		margin: 0px 0px 15px 0px;
+	}
+
+	.texte
+	{
+		justify-content: space-evenly;
+	}
+
+	.photo
+	{
+		height: 150px;
+		width: 150px;
+		border-radius: 20px 0px 0px 20px;
+		margin-bottom: 0px;
+	}
+
+	.fleche
+	{
+		padding-left: 30px;
+	}
+
+	/**************** HEBERGEMENTS ****************/
+	section
+	{
+		min-width: 273px;
+		max-width: 480px;
+		background-color: transparent;
+	}
+
+	#contener
+	{
+		width: 320px;
+	}
+
+	article
+	{
+		width: 330px;
+	}
+
+	.lit
+	{
+		width :330px;
+		height: 150px;
+	}
+
+	/**************** ACTIVITES **************/
+	#activites
+	{
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.element
+	{
+		width: 322px;
+		min-width: 273px;
+		max-width: 480px;
+		margin-right: 0px;
+	}
+
+	.element2
+	{
+		width: 322px;
+		min-width: 273px;
+		max-width: 480px;
+	}
+
+	.rangement1
+	{
+		padding-bottom: 35px;
+		width: 322px;
+		min-width: 273px;
+		max-width: 480px;
+		height: 140px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+	}
+
+	.rangement2
+	{
+		margin: 10px 0px 0px 0px;
+		width: 322px;
+	}
+
+	.port
+	{
+		height: 120px;
+		width: 100%;
+		min-width: 273px;
+		max-width: 332px;
+	object-fit: cover}
+
+	.calanque
+	{
+		height: 120px;
+		width: 100%;
+		min-width: 273px;
+		max-width: 322px;
+	object-fit: cover}
+
+	.fort
+	{
+		width: 330px;
+		height: 120px;
+		min-width: 273px;
+		max-width: 322px;
+	object-fit: cover}
+
+	.ile
+	{
+		width: 330px;
+		height: 120px;
+		min-width: 273px;
+		max-width: 322px;
+	object-fit: cover}
+
+	.dame
+	{
+		width: 330px;
+		height: 120px;
+		min-width: 273px;
+		max-width: 322px;
+	object-fit: cover}
+
+	.parc
+	{
+		width: 330px;
+		height: 120px;
+		min-width: 273px;
+		max-width: 322px;
+	object-fit: cover}
+
+	/***************** FOOTER *****************/
+	
+	footer
+	{
+		flex-direction: column;
+	}
+
+	h4
+	{
+		width: 80%;
+	}
+
+	.foot
+	{
+		width: 80%;
+		margin-right: 0px;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	.foot:nth-child(2)
+	{
+		padding-left: 0px;
+	}
+
+	.foot:nth-child(3)
+	{
+		padding-left: 0px;
+	}
 }
