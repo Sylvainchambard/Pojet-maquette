@@ -85,6 +85,16 @@ header i
 	margin-right: 5px;
 }
 
+.saut 
+{
+	display: flex;
+	font-weight: bold;
+}
+
+.two {
+	display: flex;
+}
+
 .cercle
 {
 	width: 40px;

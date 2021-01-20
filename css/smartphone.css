@@ -93,12 +93,21 @@
 		margin-bottom: 10px;
 	}
 
+	.saut {
+		flex-direction: column;
+	}
+
 	/***************** POPULAIRES ****************/
 	aside
 	{
 		min-width: 273px;
 		max-width: 480px;
 		border-radius: inherit;
+	}
+
+	#bloc
+	{
+		display: inline-flex;
 	}
 
 	.populaires
@@ -134,10 +143,6 @@
 		background-color: transparent;
 	}
 
-	#contener
-	{
-		width: 320px;
-	}
 
 	article
 	{
@@ -152,11 +157,8 @@
 
 	/**************** ACTIVITES **************/
 	#activites
-	{
-		justify-content: center;
-		flex-wrap: wrap;
-		margin-right: auto;
-		margin-left: auto;
+	{	display: inline-flex;
+		
 	}
 
 	.element

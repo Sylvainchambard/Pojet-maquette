@@ -66,6 +66,11 @@
 		flex-wrap: wrap;
 	}
 
+	.cercle 
+	{
+		margin-bottom: 10px;
+	}
+
 	main
 	{
 		flex-direction: column-reverse;
