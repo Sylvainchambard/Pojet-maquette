@@ -1,9 +1,83 @@
 
 @media only screen and (max-width: 1023px)
 {
-	
+	.container-link-reverse{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        /*position: initial;
+        bottom: inherit; */
+        margin-top: 35px;
+        width: 100%;
 
-	nav
+    }
+
+    .nav-element1 a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: 40px;
+
+    }
+    .nav-element a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        position: initial;
+        bottom: inherit;
+        
+    }
+    .nav-element2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        position: initial;
+        bottom: inherit;
+    }
+
+    nav{
+        margin: 0;
+        border-bottom: 1px solid grey;
+        
+    }
+
+    .nav-element{
+        width: 50%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .nav-element2{
+        width: 50%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .nav-element:hover{
+    	border-top: none;
+        border-bottom: 1px solid blue; 
+        padding-bottom: 50px;
+    }
+
+    .nav-element2:hover{
+    	border-top: none;
+        border-bottom: 1px solid blue; 
+        padding-bottom: 50px;
+        padding-left: 85px;
+    }    
+
+    .nav-element a:hover{
+        border-top:none;
+       }
+
+    .nav-element2 a:hover{
+        border-top:none;
+                
+    }    
+
+	/*nav
 	{
 		padding-top: 20px;
 		flex-direction: column-reverse;
@@ -60,7 +134,7 @@
 		border:none;
 		margin-top: -45px;
 	}
-
+*/
 	#forme
 	{
 		flex-wrap: wrap;
