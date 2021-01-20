@@ -63,154 +63,123 @@ nav a:hover
 	padding-top: 45px;
 }
 
-/*------------------------- FILTRE ---------------------------------------------*/
-header p, h1, .logo, .barre
-{
-	padding-left: 15px;
-}
+
+
 
 header
 {
-	max-width: 1250px;
+	max-width: 1350px;
 	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
 }
+/*------------------------- FILTRE ---------------------------------------------*/
 
-header i
+.cercle i
 {
-	height: 20px;
 	color : #0065FC;
-	margin-top: 5px;
-	margin-bottom: auto;
-	margin-left: 20px;
-	margin-right: 5px;
 }
 
-.saut 
+.saut
 {
-	display: flex;
-	font-weight: bold;
+	 display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 0 0px;
+    align-items: baseline;
+    font-weight: bold;
 }
 
-.two {
+.two 
+{
 	display: flex;
 }
 
 .cercle
 {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	background-color: #DEEBFF;
-	margin-left: 15px;
+	height: 45px; 
+    width: 45px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
 }
 
-.cercle .billet
+.content
 {
-	position: relative;
-	top: 5px;
-	right: 10px;
+    display: flex; 
+    border: 1px solid #D3D3D3;
+    border-radius: 25px;
+    height: 45px;
+    margin-left: 20px;   
+    margin-bottom: 15px;
 }
 
-.cercle .child
-{
-	position: relative;
-	top: 5px;
-	right: 6px;
-}
-
-.cercle .coeur
-{
-	position: relative;
-	top: 6px;
-	right: 7px;
-}
-
-.cercle .dog
-{
-	position: relative;
-	top: 5px;
-	right: 8px;
-}
-
-main i
-{
-color: #0065FC}
-
-.filtre
-{
-	display: flex;
-	border-radius: 0px 40px 40px 0px;
-	border-top: 2.5px solid #F2F2F2;
-	border-right: 2.5px solid #F2F2F2;
-	border-bottom: 2.5px solid #F2F2F2;
-	padding: 8px 40px 0px 40px;
-	height: 27px;
-	margin-left: -20px;
-	margin-bottom: 0px;
-}
-
-.filtre:hover
+.content:hover
 {
 	color : #0065FC ;
 	cursor: pointer;
 	transform: scale(1.12);
 }
 
-.map
+.content p
 {
-	color :black;
-	background-color: #F2F2F2;
-	padding: 11px 11px 10px 15px;
-	border-radius: 40px 0px 0px 40px;
-	margin-left: -5px;
-	margin-right: 0px;
+    padding-left: 5px;
+    padding-right: 17px;
+    line-height:15px;
 }
 
-.info
+.class-p-filtres
 {
-	color : #0065FC;
+    text-align: center;
+}
+ 
+.cercle-info
+{	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	color : #0065FC;				/*phrase information*/
 	background-color: white;
 	border: 2.5px solid #F2F2F2;
 	border-radius: 50%;
-	padding: 3px 10px 2px 10px;
+	margin-right: 10px;
+	margin-top: 8px;
 }
 
-.saut
-{
-	margin-top: 10px;
-}
-
-.bulle-billet
-{
+.information {
 	display: flex;
 }
 
-.bulle-enfant
+.information p 
+{
+	
+}
+/*----------------Barre de recherche--------------*/ 
+
+.barre 
 {
 	display: flex;
+    height: 30px;
+    margin: 25px 0px 25px 0px;
 }
 
-.bulle-coeur
+.content-icon
 {
-	display: flex;
+    height: 40px;
+    background-color: #F2F2F2;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px 0px 0px 40px;
 }
 
-.bulle-chien
-{
-	display: flex;
+.fa-map-marker-alt{
+    line-height: 40px;
 }
 
-#forme
-{
-	display: flex;
-	font-weight: bold;
-}
-
-.recherche
+.search-text
 {
 	border : 0.5px solid #F2F2F2;
 	height: 40px;
-	margin-right: -5px;
 	padding-left: 10px;
 	font-weight: bold;
 	margin-left: -5px;
@@ -218,18 +187,30 @@ color: #0065FC}
 
 .bouton
 {
-	color: white;
-	background-color: #0065FC;
-	height: 40px;
-	margin-bottom: 15px;
-	border : none;
-	border-radius: 0px 40px 40px 0px;
+ 	height: 40px;
+    background-color: #0065FC;
+    border:none;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .loupe
 {
-	display: inline;
-	visibility: hidden;
+  	display: none;
+    height: 40px;
+    background-color: #0065FC;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: inherit;
+}
+
+.fa-search {
+	line-height: 40px;
 }
 
 /*-------------------------- HEBERGEMENTS----------------------------------------------*/
@@ -241,6 +222,11 @@ main
 	max-width: 1650px;
 	margin: auto;
 	margin-bottom: 40px;
+}
+
+main i
+{
+color: #0065FC
 }
 
 main a

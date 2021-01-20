@@ -63,12 +63,7 @@
 
 	.loupe
 	{
-		background-color: #0065FC;
-		visibility: visible;
-		border-radius: 10px;
-		padding: 10px 10px 10px 10px;
-		color : white;
-		margin-left: 0px;
+		display: flex;
 	}
 
 	.barre
