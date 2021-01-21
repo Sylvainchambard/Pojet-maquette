@@ -2,17 +2,9 @@
 @media only screen and (max-width: 480px)
 {
 	/**************** HEADER ***************/
-	header
-	{
-		margin: auto;
-	}
+	
 
-	h1
-	{
-		padding-left: 25px;
-	}
-
-	nav
+	/*nav
 	{
 		padding-top: 20px;
 		flex-direction: column-reverse;
