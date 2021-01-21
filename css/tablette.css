@@ -1,85 +1,88 @@
 
 @media only screen and (max-width: 1023px)
 {
+	.container-link-reverse
+	{
+		display: flex;
+		align-items: center;
+		justify-content:space-between;
+		margin-top: 60px;
+		width: 100%;
+	}
 
-	.container-link-reverse{
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
-        margin-top: 60px;
-        width: 100%;
+	.nav-element1 a
+	{
+		text-decoration: none;
+		color: #0065FC;
+		font-size: 1.2em;
+		padding-left: 40px;
+	}
 
-    }
+	.nav-element a
+	{
+		text-decoration: none;
+		color: black;
+		font-size: 1.2em;
+		padding: inherit;
+		position: initial;
+		bottom: inherit;
+	}
 
-    .nav-element1 a{
-        text-decoration: none;
-        color: #0065FC;
-        font-size: 1.2em;
-        padding-left: 40px;
+	.nav-element2 a
+	{
+		text-decoration: none;
+		color: black;
+		font-size: 1.2em;
+		padding: inherit;
+		position: initial;
+		bottom: inherit;
+	}
 
-    }
-    .nav-element a{
-        text-decoration: none;
-        color: black;
-        font-size: 1.2em;
-        padding: inherit;
-        position: initial;
-        bottom: inherit;
-        
-    }
-    .nav-element2 a{
-        text-decoration: none;
-        color: black;
-        font-size: 1.2em;
-        padding: inherit;
-        position: initial;
-        bottom: inherit;
-    }
+	nav
+	{
+		margin: 0;
+	}
 
-    nav{
-        margin: 0;
-               
-    }
+	.nav-element
+	{
+		width: 50%;
+		text-align: center;
+		border-bottom: 1px solid grey;
+		padding-bottom: 30px;
+	}
 
-    .nav-element{
-        width: 50%;
-        text-align: center;
-         border-bottom: 1px solid grey;
-        padding-bottom: 30px;
-    }
+	.nav-element2
+	{
+		width: 50%;
+		text-align: center;
+		border-bottom: 1px solid grey;
+		padding-bottom: 30px;
+	}
 
-    .nav-element2{
-        width: 50%;
-        text-align: center;
-         border-bottom: 1px solid grey;
-       padding-bottom: 30px;
-    }
+	.nav-element:hover
+	{
+		border-top:none;
+		color: #0065FC;
+		border-top: none;
+		border-bottom: 1px solid blue;
+		padding-bottom: 30px;
+		margin-bottom: -2px;
+	}
 
-    .nav-element:hover{
-    	border-top:none;
-    	color: #0065FC;
-    	border-top: none;
-        border-bottom: 1px solid blue; 
-        padding-bottom: 30px;
-        margin-bottom: -2px;
-       
-       
-    }
+	.nav-element2:hover
+	{
+		border-top:none;
+		color: #0065FC;
+		border-top: none;
+		border-bottom: 1px solid blue;
+		padding-bottom: 30px;
+		margin-bottom: -2px;
+	}
 
-    .nav-element2:hover{ 
-    	border-top:none;
-    	color: #0065FC;
-    	border-top: none;
-        border-bottom: 1px solid blue; 
-        padding-bottom: 30px;
-        margin-bottom: -2px;
-        
-    }    
-
-    .container-link-reverse a:hover 
-    {
-    	color:#0065FC;
-    }
+	.container-link-reverse a:hover
+	{
+		color:#0065FC;
+	}
 
 	#forme
 	{

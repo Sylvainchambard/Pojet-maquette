@@ -17,69 +17,71 @@ header
 	max-width: 1350px;
 	min-width: 312px;
 	margin: auto;
-	
 	padding-top: 15px;
 }
 
 /* ------------------------- NAV -------------------------------------*/
-.container-logo-inscription{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 50px;
-   z-index: 999999999;
+.container-logo-inscription
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 15px;
+	padding-right: 50px;
+	z-index: 999999999;
 }
 
-.nav-element1 a{
-    text-decoration: none;
-    color: #0065FC;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding-left: 85px;
+.nav-element1 a
+{
+	text-decoration: none;
+	color: #0065FC;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-left: 85px;
 }
 
-.nav-element a{
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-    padding: 27px;
-  }
-
-.nav-element2 a{
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-    padding: 27px;
- 
+.nav-element a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2em;
+	padding: 27px;
 }
 
-.nav-element, .nav-element2{
+.nav-element2 a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2em;
+	padding: 27px;
+}
+
+.nav-element, .nav-element2
+{
 	position: relative;
-    bottom: 41px;
+	bottom: 41px;
 }
 
-.container-link-reverse{
-    display: flex;
-    align-items: center;
-    justify-content:flex-end;  
-    margin-right: 170px 
+.container-link-reverse
+{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+margin-right: 170px }
+
+.nav-element:hover
+{
+	border-top: 2px solid #0065FC;
+	padding-top: 30px;
+	margin-top: -32px;
 }
 
-  .nav-element:hover{
-        border-top: 2px solid #0065FC; 
-        padding-top: 30px;
-        margin-top: -32px;
-        
-    }
-
-    .nav-element2:hover{
-        border-top: 2px solid #0065FC; 
-        padding-top: 30px;
-          margin-top: -32px;
-
-    }    
-
+.nav-element2:hover
+{
+	border-top: 2px solid #0065FC;
+	padding-top: 30px;
+	margin-top: -32px;
+}
 
 h1
 {
@@ -88,14 +90,13 @@ h1
 	padding-right: 20px;
 }
 
-.city {
+.city
+{
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-
 /*------------------------- FILTRE ---------------------------------------------*/
-
 .cercle i
 {
 	color : #0065FC;
@@ -103,14 +104,14 @@ h1
 
 .saut
 {
-	 display: flex;
-    flex-wrap: wrap;
-    margin: 30px 0 0 0px;
-    align-items: baseline;
-    font-weight: bold;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 0 0 0px;
+	align-items: baseline;
+	font-weight: bold;
 }
 
-.two 
+.two
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -118,22 +119,22 @@ h1
 
 .cercle
 {
-	height: 45px; 
-    width: 45px;
-    background-color: #DEEBFF;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 45px;
+	height: 45px;
+	width: 45px;
+	background-color: #DEEBFF;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 45px;
 }
 
 .content
 {
-    display: flex; 
-    border: 1px solid #D3D3D3;
-    border-radius: 25px;
-    height: 45px;
-    margin-left: 20px;   
-    margin-bottom: 15px;
+	display: flex;
+	border: 1px solid #D3D3D3;
+	border-radius: 25px;
+	height: 45px;
+	margin-left: 20px;
+	margin-bottom: 15px;
 }
 
 .content:hover
@@ -145,23 +146,25 @@ h1
 
 .content p
 {
-    padding-left: 5px;
-    padding-right: 17px;
-    line-height:15px;
+	padding-left: 5px;
+	padding-right: 17px;
+	line-height:15px;
 }
 
 .class-p-filtres
 {
-    text-align: center;
-    padding-left: 20px;
+	text-align: center;
+	padding-left: 20px;
 }
- 
+
 .cercle-info
-{	height: 30px;
+{
+	height: 30px;
 	width: 30px;
 	text-align: center;
 	line-height: 30px;
-	color : #0065FC;				/*phrase information*/
+	color : #0065FC;
+	/*phrase information*/
 	background-color: white;
 	border: 2.5px solid #F2F2F2;
 	border-radius: 50%;
@@ -169,38 +172,39 @@ h1
 	margin-top: 8px;
 }
 
-.information {
+.information
+{
 	display: flex;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-.information p 
+.information p
 {
-	
 }
-/*----------------Barre de recherche--------------*/ 
 
-.barre 
+/*----------------Barre de recherche--------------*/
+.barre
 {
 	display: flex;
-    height: 30px;
-    margin: 25px 0px 25px 0px;
-    padding-left: 20px;
+	height: 30px;
+	margin: 25px 0px 25px 0px;
+	padding-left: 20px;
 	padding-right: 20px;
 }
 
 .content-icon
 {
-    height: 40px;
-    background-color: #F2F2F2;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 40px 0px 0px 40px;
+	height: 40px;
+	background-color: #F2F2F2;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 40px 0px 0px 40px;
 }
 
-.fa-map-marker-alt{
-    line-height: 40px;
+.fa-map-marker-alt
+{
+	line-height: 40px;
 }
 
 .search-text
@@ -214,29 +218,30 @@ h1
 
 .bouton
 {
- 	height: 40px;
-    background-color: #0065FC;
-    border:none;
-    border-radius: 0 20px 20px 0;
-    color: white;
-    padding-right: 15px;
-    padding-left: 15px;
+	height: 40px;
+	background-color: #0065FC;
+	border:none;
+	border-radius: 0 20px 20px 0;
+	color: white;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .loupe
 {
-  	display: none;
-    height: 40px;
-    background-color: #0065FC;
-    border:none;
-    border-radius: 10px;
-    color: white;
-    padding-right: 12px;
-    padding-left: 12px;
-    font-size: inherit;
+	display: none;
+	height: 40px;
+	background-color: #0065FC;
+	border:none;
+	border-radius: 10px;
+	color: white;
+	padding-right: 12px;
+	padding-left: 12px;
+	font-size: inherit;
 }
 
-.fa-search {
+.fa-search
+{
 	line-height: 40px;
 }
 
@@ -253,8 +258,7 @@ main
 
 main i
 {
-color: #0065FC
-}
+color: #0065FC}
 
 main a
 {
@@ -358,9 +362,11 @@ aside p:nth-child(2)
 	margin-bottom: 6px;
 	padding-left: 8px;
 }
-aside h2 {
-    display: flex;
-    justify-content: space-between;
+
+aside h2
+{
+	display: flex;
+	justify-content: space-between;
 }
 
 .fa-chart-line
