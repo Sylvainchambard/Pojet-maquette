@@ -79,9 +79,14 @@
 		margin-bottom: 0px;
 	}
 
+	aside .etoile {
+		padding-left: initial;
+		margin-top: inherit;
+	}
+
 	.fleche
 	{
-		padding-left: 30px;
+		
 	}
 
 	/**************** HEBERGEMENTS ****************/
@@ -107,6 +112,8 @@
 	/**************** ACTIVITES **************/
 	#activites
 	{	display: inline-flex;
+		width: auto;
+		min-width: 313px;
 		
 	}
 

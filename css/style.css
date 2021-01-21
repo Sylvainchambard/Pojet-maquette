@@ -358,10 +358,14 @@ aside p:nth-child(2)
 	margin-bottom: 6px;
 	padding-left: 8px;
 }
+aside h2 {
+    display: flex;
+    justify-content: space-between;
+}
 
-.fleche
+.fa-chart-line
 {
-	padding-left: 50px;
+	color: inherit;
 }
 
 /*---------------------------ACTIVITES-------------------------------------*/
