@@ -1,45 +1,6 @@
 
 @media only screen and (max-width: 480px)
 {
-	/**************** HEADER ***************/
-	
-
-	/*nav
-	{
-		padding-top: 20px;
-		flex-direction: column-reverse;
-		border-bottom: 2px solid #F2F2F2;
-	}
-
-	nav a:last-child
-	{
-		width: auto;
-	}
-
-	.heb, .act
-	{
-		width: 50%;
-	}
-
-	.ok
-	{
-		justify-content: flex-end;
-		position: relative;
-		bottom: 40px;
-		padding-right: 10px;
-	}
-
-	.mobile
-	{
-		width: 100%;
-		margin: auto;
-		height: 30px;
-	}
-
-	
-	
-
-
 	/******************** FILTRES *******************/
 	.recherche
 	{
@@ -100,7 +61,8 @@
 	.populaires
 	{
 		flex-direction: row;
-		width: 320px;
+		width: auto;
+		max-width: 300px;
 		margin: 0px 0px 15px 0px;
 	}
 
@@ -133,13 +95,13 @@
 
 	article
 	{
-		width: 330px;
+		width: auto;
 	}
 
 	.lit
 	{
-		width :330px;
-		height: 150px;
+		width : auto;
+		height: auto;
 	}
 
 	/**************** ACTIVITES **************/
@@ -150,15 +112,15 @@
 
 	.element
 	{
-		width: 322px;
+		width: auto;
 		min-width: 273px;
-		max-width: 480px;
+		max-width: 300px;
 		margin-right: 0px;
 	}
 
 	.element2
 	{
-		width: 322px;
+		width: auto;
 		min-width: 273px;
 		max-width: 480px;
 	}
@@ -166,66 +128,26 @@
 	.rangement1
 	{
 		padding-bottom: 35px;
-		width: 322px;
+		
 		min-width: 273px;
-		max-width: 480px;
+		max-width: 300px;
 		height: 140px;
 		margin-bottom: 20px;
-		margin-left: 10px;
+		
 	}
 
 	.rangement2
 	{
 		margin: 10px 0px 0px 0px;
-		width: 322px;
+		width: auto;
 	}
 
-	.port
+	.port, .calanque, .fort, .ile, .dame, .parc
 	{
 		height: 120px;
-		width: 100%;
+		    width: fit-content;
 		min-width: 273px;
-		max-width: 332px;
-	object-fit: cover}
-
-	.calanque
-	{
-		height: 120px;
-		width: 100%;
-		min-width: 273px;
-		max-width: 322px;
-	object-fit: cover}
-
-	.fort
-	{
-		width: 330px;
-		height: 120px;
-		min-width: 273px;
-		max-width: 322px;
-	object-fit: cover}
-
-	.ile
-	{
-		width: 330px;
-		height: 120px;
-		min-width: 273px;
-		max-width: 322px;
-	object-fit: cover}
-
-	.dame
-	{
-		width: 330px;
-		height: 120px;
-		min-width: 273px;
-		max-width: 322px;
-	object-fit: cover}
-
-	.parc
-	{
-		width: 330px;
-		height: 120px;
-		min-width: 273px;
-		max-width: 322px;
+		max-width: 300px;
 	object-fit: cover}
 
 	/***************** FOOTER *****************/

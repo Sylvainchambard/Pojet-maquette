@@ -15,6 +15,7 @@ body
 header
 {
 	max-width: 1350px;
+	min-width: 312px;
 	margin: auto;
 	
 	padding-top: 15px;
@@ -25,7 +26,7 @@ header
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 50px;
+    padding-left: 15px;
     padding-right: 50px;
    z-index: 999999999;
 }
@@ -43,17 +44,14 @@ header
     color: black;
     font-size: 1.2em;
     padding: 27px;
-    /*position: relative;
-    bottom: 41px;*/
-}
+  }
 
 .nav-element2 a{
     text-decoration: none;
     color: black;
     font-size: 1.2em;
     padding: 27px;
-   /* position: relative;
-    bottom: 41px;*/
+ 
 }
 
 .nav-element, .nav-element2{
@@ -95,50 +93,6 @@ h1
 	padding-right: 20px;
 }
 
-/*
-nav
-{
-	display: flex;
-	justify-content: flex-end;
-	position: relative;
-	bottom: 16px;
-}
-
-.mobile
-{
-	display: flex;
-	flex-direction: row;
-}
-
-.ok
-{
-	color: blue;
-	font-weight: bold;
-}
-
-nav a
-{
-	display: flex;
-	text-decoration: none;
-	color : black;
-	list-style-type: none;
-	margin-bottom: 20px;
-	margin-left: 70px;
-	margin-right: 5px;
-}
-
-nav a:hover
-{
-	border-top: 2px solid #0065FC;
-	color: #0065FC ;
-	font-weight: bold;
-	margin-top: -47px;
-	padding-top: 45px;
-}
-
-
-
-
 
 /*------------------------- FILTRE ---------------------------------------------*/
 
@@ -159,6 +113,7 @@ nav a:hover
 .two 
 {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .cercle

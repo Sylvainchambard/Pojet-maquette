@@ -6,8 +6,6 @@
         display: flex;
         align-items: center;
         justify-content:space-between;
-        /*position: initial;
-        bottom: inherit; */
         margin-top: 60px;
         width: 100%;
 
@@ -40,8 +38,7 @@
 
     nav{
         margin: 0;
-       /* border-bottom: 1px solid grey;*/
-        
+               
     }
 
     .nav-element{
@@ -79,68 +76,11 @@
         
     }    
 
-    .container-link-reverse a:hover {
+    .container-link-reverse a:hover 
+    {
     	color:#0065FC;
     }
 
-	/*nav
-	{
-		padding-top: 20px;
-		flex-direction: column-reverse;
-	}
-
-	nav a
-	{
-		margin: 0px;
-	}
-
-	.mobile a
-	{
-		width: 50%;
-		height: 30px;
-		padding-left: 60px;
-		margin-right: inherit;
-	}
-
-	.mobile
-	{
-		height: 30px;
-		margin-top: 30px;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-		margin-top : -8px;
-	}
-
-	.ok
-	{
-		height: 20px;
-		justify-content: flex-end;
-		position: relative;
-		bottom: 50px;
-		padding-right: 20px;
-	}
-
-	.act, .heb
-	{
-		width: 50%;
-	}
-
-	nav .mobile a:hover
-	{
-		border-bottom: 3px solid #0065FC;
-		border-top: none;
-		margin-top: inherit;
-		padding-top: inherit;
-		font-weight: normal;
-	}
-
-	nav .ok:hover
-	{
-		border:none;
-		margin-top: -45px;
-	}
-*/
 	#forme
 	{
 		flex-wrap: wrap;
