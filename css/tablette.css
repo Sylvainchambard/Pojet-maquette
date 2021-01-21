@@ -79,10 +79,7 @@
 		margin-bottom: -2px;
 	}
 
-	.container-link-reverse a:hover
-	{
-		color:#0065FC;
-	}
+
 
 	#forme
 	{
@@ -143,8 +140,10 @@
 
 	footer
 	{
-		width: auto;
-		flex-wrap: wrap;
+	width: auto;
+    max-width: 1023px;
+    flex-wrap: wrap;
+    min-width: 313px;
 	}
 
 	.foot
